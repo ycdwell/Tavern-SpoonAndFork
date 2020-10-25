@@ -19,9 +19,16 @@
 Подвергнувшись соблазну, Маша ложится обратно в постель.[p]
 #Маша
 Нет, ну правда, мир же не рухнет, если я просплю эту пару.[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
 После этих слов Маша укуталась в своё пуховое одеялко и погрузилась в так желанный ею сон.[p]
 [_tb_end_text]
 
+*undefined
+
+[tb_hide_message_window  ]
+[tb_image_hide  time="1000"  ]
 [jump  storage="chapter1.ks"  target="*start"  ]
 [s  ]
