@@ -26,9 +26,6 @@
 После этих слов Маша укуталась в своё пуховое одеялко и погрузилась в так желанный ею сон.[p]
 [_tb_end_text]
 
-*undefined
-
 [tb_hide_message_window  ]
-[tb_image_hide  time="1000"  ]
 [jump  storage="chapter1.ks"  target="*start"  ]
 [s  ]

@@ -16,7 +16,16 @@
 ;schoolgirl
 ;indus
 ;kostya
+;yuko
+[chara_new  name="yuko"  jname="yuko"  storage="chara/16/yuko1_L.png"  ]
+;vchan
+[chara_new  name="vchan"  jname="vchan"  storage="chara/17/vchan_L1.png"  ]
+;mkun
+[chara_new  name="mkun"  jname="mkun"  storage="chara/18/mkun1_L.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 
+f['maxevstratov_isAlive']=0; 
+f['ycdwell_isAlive']=0; 
+f['alyona_isAlive']=0; 
 [endscript] 

@@ -3,7 +3,13 @@
 [cm  ]
 *start
 
-[bg  storage="room.jpg"  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="black_pixel.png"  ]
+[tb_start_text mode=1 ]
+Глава 2. Мусульманка[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[bg  storage="chapter2/0.jpg"  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 Огромная красная дыра в небе всё больше привлекала внимание.[p]
@@ -11,8 +17,12 @@
 Осмотревшись по сторонам, Маша поняла, что нет ни одного человека на улице, кроме неё самой.[p]
 Всё вокруг как будто выцвело. Погода напоминала самую ужасную осень в её жизни.[p]
 Немного придя в себя, Маша начала потихоньку ориентироваться и узнавать знакомые места.[p]
+[_tb_end_text]
+
+[tb_autosave  title="AutoSave"  ]
+[tb_start_text mode=1 ]
 #Маша
--Так, вот ЦНТИ, а вот Бегемаг, где я постоянно брала эту сраную лапшу быстрого приготовления. Думаю, нужно проверить, есть ли там люди…[p]
+Так, вот ЦНТИ, а вот Бегемаг, где я постоянно брала эту сраную лапшу быстрого приготовления. Думаю, нужно проверить, есть ли там люди…[p]
 [_tb_end_text]
 
 [glink  color="black"  storage="chapter2.ks"  size="20"  text="Пойти&nbsp;в&nbsp;ЦНТИ"  target="*cnti"  x="210"  y="320"  width=""  height=""  _clickable_img=""  ]
@@ -23,8 +33,13 @@
 [tb_start_text mode=2 ]
 Маша проходит пешеходный переход.[l][r]
 Она идет и продолжает оглядываться по сторонам, и понимает, что никаких машин на дороге и в помине нет.[l][r]
-Поднявшись по ступеням, она потянула на себя дверь. На первом этаже здания было темно и пусто.[l][r]
-Прилавки пусты, нет даже жареных пирожков в буфете.[l][r]
+
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/cnti.jpg"  ]
+[tb_start_text mode=1 ]
+Поднявшись по ступеням, она потянула на себя дверь. На первом этаже здания было темно и пусто.[p]
+Прилавки пусты, нет даже жареных пирожков в буфете.[p]
 [_tb_end_text]
 
 [jump  storage="chapter2.ks"  target="*part2"  ]
@@ -32,8 +47,12 @@
 
 [tb_start_text mode=1 ]
 Подходя ближе к дверям, Маша увидела пустые залы магазина.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/begemag.jpg"  ]
+[tb_start_text mode=1 ]
 #Маша
--Пиздец, неужели в этом мире нельзя купить пиво...[p]
+Пиздец, неужели в этом мире нельзя купить пиво...[p]
 [_tb_end_text]
 
 *part2
@@ -58,9 +77,18 @@
 Кажется именно туда мне и нужно![p]
 #
 Убедившись, что все эти лучи ей не кажутся, Мария пустилась в десятиминутный путь.[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="chapter2/door.jpg"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 Подойдя к подъезду, девушка позвонила в домофон.[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="chapter2/domofon.jpg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #???
 Да?[p]
@@ -79,6 +107,8 @@
 Что ж, ладно, попробуем по-другому.[p]
 [_tb_end_text]
 
+[tb_autosave  title="AutoSave"  ]
+[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko5_L.png"  width="400"  height="533"  left="318"  top="390"  reflect="true"  ]
 [tb_start_text mode=1 ]
 #???
 Да?[p]
@@ -86,9 +116,10 @@
 
 *domofon
 
-[glink  color="black"  storage="chapter2.ks"  size="20"  text="Это&nbsp;Виталя"  target=""  x="183"  y="320"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="chapter2.ks"  size="20"  text="Это&nbsp;соседка&nbsp;снизу"  x="193"  y="370"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="chapter2.ks"  size="20"  text="Пизда"  x="250"  y="420"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Это&nbsp;Виталя"  target="*domofon-vitalya"  x="183"  y="320"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Это&nbsp;соседка&nbsp;снизу"  x="193"  y="370"  width=""  height=""  _clickable_img=""  target="*domofon-sosedka"  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Пизда"  x="250"  y="420"  width=""  height=""  _clickable_img=""  target="*domofon-pizda"  ]
+[s  ]
 *domofon-vitalya
 
 [tb_start_text mode=1 ]
@@ -130,17 +161,19 @@
 
 *door-opened
 
+[chara_hide  name="yuko"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
-#
 Поднявшись на четвертый этаж, девушка позвонила в знакомую ей 15-ю квартиру. Дверь отпирается.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/flat.jpg"  ]
+[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko7_L.png"  width="400"  height="533"  left="316"  top="390"  reflect="true"  ]
+[tb_start_text mode=1 ]
 #???
 Здравствуйте. Чем могу помочь?[p]
 #
 Без всяких сомнений, дверь открыла её подруга.[p]
 Вот только выглядела она совсем не так, как помнила её Маша.[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
 Алёна была одета в домашний халат, который был весь в пятнах от непонятно чего, и тапочки, которые совсем не подходили ей по размеру.[p]
 Но кое-что в её внешнем виде бросалось в глаза больше всего.[p]
 #Маша
@@ -189,6 +222,10 @@
 В глазах Алёны появился блеск, который так хорошо знаком девушке.[p]
 Алёна как будто предвкушала что-то интересное.[p]
 Девушки прошли на кухню.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/kitchen.jpg"  ]
+[tb_start_text mode=1 ]
 #Алёна
 Что ж, ладно. Всё равно мне жизнь моя не мила, да и я вижу, что ничего особого ты мне не сделаешь.[p]
 Тем более, я уже позвонила Лёшеньке, он скоро будет здесь. Так что давай, говори.[p]
@@ -253,13 +290,129 @@
 #
 Оглянувшись, Маша увидела, что ребёнок исчез, а квартира вернулась в прежний вид.[p]
 Вместо пелёнок – толстовки Алёны, а вместо коробок с игрушками – настольные игры.[p]
+
+[_tb_end_text]
+
+[chara_mod  name="yuko"  time="600"  cross="true"  storage="chara/16/yuko1_L.png"  ]
+[tb_start_text mode=1 ]
 Сама Алёна тоже преобразилась. Но вдруг…[p]
 Не успев насладиться минутой покоя, девушки слышат лязг ключей.[p]
 #Алёна
 О нет, это Лёша!! Надо бежать![p]
+#
 Дверь открылась и послышалось знакомое пыхтение. Парень разувался и снимал куртку.[p]
 #Лёша
 Эй ты! Что у тебя там опять случилось, тупица?! Неужели одна справиться со всем не можешь?![p]
 [_tb_end_text]
 
+[chara_hide  name="yuko"  time="1000"  wait="true"  pos_mode="true"  ]
+[bg  time="1000"  method="crossfade"  storage="chapter2/corridor.jpg"  ]
+[tb_autosave  title="AutoSave"  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Схватить&nbsp;хиджаб"  target="*hidjab"  x="243"  y="410"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Схватить&nbsp;чайник"  target="*teapot"  x="246"  y="459"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Схватить&nbsp;сковороду"  target="*skovoroda"  x="233"  y="513"  width=""  height=""  _clickable_img=""  ]
+[s  ]
+*hidjab
+
+[tb_start_text mode=1 ]
+В спешке Маша хватает темную тряпку, что лежит на стуле.[p]
+Как только Лёша сворачивает на кухню, она кидает тряпку ему в лицо.[p]
+#Лёша
+Что это за хуйня?! Совсем сдурела что ли?! А ну пошла вон отсюда![p]
+#
+Злой Лёша замахивается кулаком на девочек.[p]
+Маше удается увернуться, и Леша принимается избивать Алёну.[p]
+#Алёна
+Маша, беги!! Спасай Виталю!!![p]
+[_tb_end_text]
+
+[jump  storage="chapter2.ks"  target="*end"  ]
+*teapot
+
+[tb_start_text mode=1 ]
+Не успев опомниться, Маша хватает чайник с только что вскипевшей водой.[p]
+Чай они с Алёной всё равно уже не попьют.[p]
+Как только Лёша сворачивает на кухню, она выплескивает воду.[p]
+#Алёна
+АААААААААААААААААА!![p]
+#
+Промахнувшись, Маша попадает кипятком Алёне на лицо, но и Лёшу тоже задевает.[p]
+[_tb_end_text]
+
+[tb_eval  exp="f.alyona_isAlive=2"  name="alyona_isAlive"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[jump  storage="chapter2.ks"  target="*end"  ]
+*skovoroda
+
+[tb_start_text mode=1 ]
+Услышав приближающиеся шаги, Маша быстро реагирует и хватает сковородку.[p]
+Девушки на цыпочках пошли на встречу «мужу» и как только он завернул на кухню...[p]
+Маша ударила его сковородкой по голове.[p]
+Лёша тут же упал.[p]
+[_tb_end_text]
+
+[tb_eval  exp="f.alyona_isAlive=1"  name="alyona_isAlive"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+*end
+
+[jump  storage="chapter2.ks"  target="*bad_end"  cond="f.alyona_isAlive==0"  ]
+[jump  storage="chapter2.ks"  target="*good_end"  cond="f.alyona_isAlive==1"  ]
+[jump  storage="chapter2.ks"  target="*good_alt_end"  cond="f.alyona_isAlive==2"  ]
+*good_alt_end
+
+[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko6_L.png"  width="400"  height="533"  left="317"  top="415"  reflect="true"  ]
+[jump  storage="chapter2.ks"  target="*all_good"  ]
+*good_end
+
+[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko3_L.png"  width="400"  height="533"  left="317"  top="415"  reflect="true"  ]
+*all_good
+
+[tb_start_text mode=1 ]
+#Алёна
+Отлично! А теперь бежим отсюда![p]
+#
+Девушки взялись за руки и переступив через лежащего на полу Лёшу пустились наутек. Спотыкаясь чуть ли не на каждой ступеньке, они выбрались на улицу.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/door.jpg"  ]
+[tb_start_text mode=1 ]
+#Алёна
+Ох, это было круто![p]
+#Маша
+Еще бы![p]
+#
+Девушки обнялись и стояли так еще несколько минут, пытаясь отдышаться и прийти в себя.[p]
+Когда мысли и дыхание были в порядке, их потревожил странный свет, который обступил Алёну со всех сторон.[p]
+#Маша
+ЧТО ПРОИСХОДИТ??[p]
+#Алёна
+Не беспокойся, всё хорошо! Я отправляюсь к месту встречи. [p]
+Девушка медленно исчезала в пучине магического света. Маша была очень напугана, но озорная улыбка подруги успокаивала её.[p]
+А, и еще! Когда найдешь Виталю - скажи ему, что я его люблю![p]
+#
+После этой фразы Алёна подмигнула и исчезла.[p]
+Её забрал луч...[p]
+[_tb_end_text]
+
+[jump  storage="chapter3.ks"  target=""  ]
+*bad_end
+
+[tb_start_text mode=1 ]
+Мария, услышав что сказала ее подруга, пустилась наутек через открытую дверь квартиры.[p]
+Спотыкаясь чуть ли не на каждой ступеньке, она выбралась на улицу.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/door.jpg"  ]
+[tb_start_text mode=1 ]
+#Маша
+БЛЛЛЯТЬ, НЕТ, НЕЕЕТ, ЭТО НЕ ДОЛЖНО БЫЛО ТАК ЗАКОНЧИТЬСЯ!!! У МЕНЯ ПОЧТИ ПОЛУЧИЛОСЬ!!![p]
+#
+Маша заплакала.[p]
+[_tb_end_text]
+
+[wait  time="1000"  ]
+[tb_start_text mode=1 ]
+#Маша
+Может быть у меня получится спасти остальных...[p]
+[_tb_end_text]
+
+[jump  storage="chapter3.ks"  target=""  ]
 [s  ]
