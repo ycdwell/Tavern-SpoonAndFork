@@ -1,44 +1,26 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
+[bg  time="10"  method="crossfade"  storage="chapter8/school.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter7/глава_7_сп.ogg"  ]
+[tb_show_message_window] 
 [mask_off time=10]
-[hidemenubutton]
+[tb_start_text mode=1 ]
+#
+Прошло три часа...[p]
+#Маша
+Ну долго еще?[p]
+#
+Но ей никто не ответил, и Мария осталась там навсегда, изучая ебучую историю Бабы Лены….[p]
+[_tb_end_text]
 
-[tb_clear_images]
-
-[tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[bg  storage="title.jpg"  ]
-*title
-
-[tb_start_tyrano_code]
-[if exp="sf.system.autosave ==true"]
-[glink  color="rosy"  storage=""  size="30"  text="Продолжить"  x="75"  y="310" width="" height="30"  _clickable_img=""  target="*autoload"  ]
-[endif]
-[_tb_end_tyrano_code]
-
-[glink  color="black"  text="Новая&nbsp;Игра"  x="75"  y="390"  size="30"  target="*start"  ]
-[glink  color="black"  text="Загрузить&nbsp;Игру"  x="75"  y="470"  size="30"  target="*load"  ]
-[s  ]
-*start
-
-[showmenubutton]
-
-[cm  ]
-[tb_keyconfig  flag="1"  ]
-[jump  storage="prologue.ks"  target=""  ]
-[s  ]
-*load
-
-[cm  ]
-[showload]
-
-[jump  target="*title"  storage=""  ]
-[s  ]
-*autoload
-
-[tb_start_tyrano_code]
-[autoload]
-[_tb_end_tyrano_code]
-
+[tb_ptext_show  x="80"  y="460"  size="30"  color="0xffffff"  time="1000"  anim="false"  face="undefined"  text="Так&nbsp;и&nbsp;состариться&nbsp;можно..."  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="80"  y="500"  size="30"  color="0xffffff"  time="1000"  anim="false"  face="Arial"  text="Может,&nbsp;попробуем&nbsp;по-другому?"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="80"  y="540"  size="30"  color="0xffffff"  time="1000"  text="Мы&nbsp;как&nbsp;раз&nbsp;сохранились&nbsp;за&nbsp;тебя&nbsp;<3"  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
+[l  ]
+[tb_show_message_window  ]
+[tb_autoload  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[jump  storage="clear_screen.ks"  target=""  ]
 [s  ]

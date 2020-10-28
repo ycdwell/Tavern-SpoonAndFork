@@ -5,6 +5,10 @@
 [bg  storage="chapter1/mari_room_op.jpg"  time="1000"  ]
 [tb_show_message_window  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="prologue/prologue.ogg"  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 Пение птиц.[p]
 Звуки машин за окном.[p]
@@ -27,6 +31,10 @@
 #
 После этих слов Маша укуталась в своё пуховое одеялко и погрузилась в так желанный ею сон.[p]
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
 
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]

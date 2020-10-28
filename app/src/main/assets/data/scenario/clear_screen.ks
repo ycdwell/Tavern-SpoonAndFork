@@ -29,8 +29,11 @@
 [jump  storage="chapter2.ks"  target=""  cond="f.currentChapter==2"  ]
 [jump  storage="chapter3.ks"  target=""  cond="f.currentChapter==3"  ]
 [jump  storage="chapter5.ks"  target=""  cond="f.currentChapter==5"  ]
-[jump  storage="chapter6neg.ks"  target=""  cond="f.maxe_isAlive=='6neg'"  ]
-[jump  storage="chapter6pos.ks"  target=""  cond="f.maxe_isAlive=='6pos'"  ]
+[jump  storage="chapter6neg.ks"  target=""  cond="f.currentChapter=='6neg'"  ]
+[jump  storage="chapter6pos.ks"  target=""  cond="f.currentChapter=='6pos'"  ]
+[jump  storage="chapter7.ks"  target=""  cond="f.currentChapter==7"  ]
+[jump  storage="chapter8.ks"  target=""  cond="f.currentChapter==8"  ]
+[jump  storage="chapter9.ks"  target=""  cond="f.currentChapter==9"  ]
 [s  ]
 *save
 
@@ -58,6 +61,10 @@
 [jump  storage="chapter5.ks"  target=""  cond="f.currentChapter==3"  ]
 [jump  storage="chapter6neg.ks"  target=""  cond="f.maxe_isAlive==0"  ]
 [jump  storage="chapter6pos.ks"  target=""  cond="f.maxe_isAlive==1"  ]
+[jump  storage="chapter7.ks"  target=""  cond="f.currentChapter=='6neg'"  ]
+[jump  storage="chapter7.ks"  target=""  cond="f.currentChapter=='6pos'"  ]
+[jump  storage="chapter8.ks"  target=""  cond="f.currentChapter==7"  ]
+[jump  storage="chapter9.ks"  target=""  cond="f.currentChapter==8"  ]
 [s  ]
 *exit
 
