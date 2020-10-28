@@ -3,12 +3,18 @@
 [cm  ]
 *start
 
-[bg  time="1000"  method="crossfade"  storage="black_pixel.png"  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
+[bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 Глава 2. Мусульманка[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter1/wandering.ogg"  ]
 [bg  storage="chapter2/0.jpg"  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -19,14 +25,17 @@
 Немного придя в себя, Маша начала потихоньку ориентироваться и узнавать знакомые места.[p]
 [_tb_end_text]
 
-[tb_autosave  title="AutoSave"  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #Маша
 Так, вот ЦНТИ, а вот Бегемаг, где я постоянно брала эту сраную лапшу быстрого приготовления. Думаю, нужно проверить, есть ли там люди…[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="chapter2.ks"  size="20"  text="Пойти&nbsp;в&nbsp;ЦНТИ"  target="*cnti"  x="210"  y="320"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="chapter2.ks"  size="20"  text="Пойти&nbsp;в&nbsp;Бегемаг"  target="*begemag"  x="202"  y="371"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Пойти&nbsp;в&nbsp;ЦНТИ"  target="*cnti"  x="140"  y="320"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Пойти&nbsp;в&nbsp;Бегемаг"  target="*begemag"  x="140"  y="400"  width="270"  height="30"  _clickable_img=""  ]
 [s  ]
 *cnti
 
@@ -35,6 +44,10 @@
 Она идет и продолжает оглядываться по сторонам, и понимает, что никаких машин на дороге и в помине нет.[l][r]
 
 [_tb_end_text]
+
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
 
 [bg  time="1000"  method="crossfade"  storage="chapter2/cnti.jpg"  ]
 [tb_start_text mode=1 ]
@@ -79,6 +92,10 @@
 Убедившись, что все эти лучи ей не кажутся, Мария пустилась в десятиминутный путь.[p]
 [_tb_end_text]
 
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="chapter2/door.jpg"  ]
 [tb_show_message_window  ]
@@ -89,6 +106,7 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="chapter2/domofon.jpg"  ]
 [tb_show_message_window  ]
+[chara_show  name="alyona"  time="1000"  wait="true"  storage="chara/1/siluet.png"  width="304"  height="633"  left="412"  top="324"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #???
 Да?[p]
@@ -100,15 +118,18 @@
 Домофон отключается.[p]
 [_tb_end_text]
 
-[s  ]
+[chara_hide  name="alyona"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #Маша
 Что?.... Что значит она меня не знает?! Это же точно её голос! Неужели она не помнит меня….[p]
 Что ж, ладно, попробуем по-другому.[p]
 [_tb_end_text]
 
-[tb_autosave  title="AutoSave"  ]
-[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko5_L.png"  width="400"  height="533"  left="318"  top="390"  reflect="true"  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
+[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/siluet.png"  width="304"  height="633"  left="318"  top="390"  reflect="true"  ]
 [tb_start_text mode=1 ]
 #???
 Да?[p]
@@ -116,19 +137,23 @@
 
 *domofon
 
-[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Это&nbsp;Виталя"  target="*domofon-vitalya"  x="183"  y="320"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Это&nbsp;соседка&nbsp;снизу"  x="193"  y="370"  width=""  height=""  _clickable_img=""  target="*domofon-sosedka"  ]
-[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Пизда"  x="250"  y="420"  width=""  height=""  _clickable_img=""  target="*domofon-pizda"  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Это&nbsp;Виталя"  target="*domofon-vitalya"  x="180"  y="320"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Это&nbsp;соседка&nbsp;снизу"  x="180"  y="400"  width="270"  height="30"  _clickable_img=""  target="*domofon-sosedka"  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Пизда"  x="180"  y="480"  width="270"  height="30"  _clickable_img=""  target="*domofon-pizda"  ]
 [s  ]
 *domofon-vitalya
 
 [tb_start_text mode=1 ]
 #Маша
-[крепким мужским басом] Это я, Виталя![p]
+Это я, Виталя![p]
 #???
--Чего? Какой Виталя, не знаю я такого. Вы ошиблись квартирой.[p]
+Чего? Какой Виталя, не знаю я такого. Вы ошиблись квартирой.[p]
 #
 Домофон отключается.[p]
+[_tb_end_text]
+
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
 #Маша
 Это какой-то бред. Почему она нас не помнит…[p]
 Что ж, ладно, попробуем по-другому.[p]
@@ -137,6 +162,7 @@
 [jump  storage="chapter2.ks"  target="*domofon"  ]
 *domofon-sosedka
 
+[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/siluet.png"  width="304"  height="633"  ]
 [tb_start_text mode=1 ]
 #Маша
 Это соседка снизу, впусти, я ключи забыла![p]
@@ -149,6 +175,7 @@
 [jump  storage="chapter2.ks"  target="*door-opened"  ]
 *domofon-pizda
 
+[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/siluet.png"  width="304"  height="633"  ]
 [tb_start_text mode=1 ]
 #Маша
 Пизда.[p]
@@ -161,13 +188,19 @@
 
 *door-opened
 
-[chara_hide  name="yuko"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 Поднявшись на четвертый этаж, девушка позвонила в знакомую ей 15-ю квартиру. Дверь отпирается.[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
 [bg  time="1000"  method="crossfade"  storage="chapter2/flat.jpg"  ]
-[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko7_L.png"  width="400"  height="533"  left="316"  top="390"  reflect="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter2/muslim.ogg"  ]
+[chara_show  name="alyona"  time="1000"  wait="true"  storage="chara/1/alyonaA.0.png"  width="473"  height="1031"  left="202"  top="321"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #???
 Здравствуйте. Чем могу помочь?[p]
@@ -183,11 +216,21 @@
 Маша была в шоке от увиденного.[p]
 Зная характер подруги, она могла бы счесть всё это за шутку, но убитый вид Алёны сразу говорил о том, что смешного тут ничего нет.[p]
 Тем более, ребёнок выглядел вполне реалистично, и даже издавал звуки…[p]
+
+[_tb_end_text]
+
+[chara_mod  name="alyona"  time="600"  cross="true"  storage="chara/1/alyonaA.2.png"  ]
+[tb_start_text mode=1 ]
 #Алёна
 Девушка, вы кто такая? Вы почему кричите на меня??[p]
 #
 Маша не находила слов. Нужно было быстро что-то предпринимать.[p]
 Понимая то, что незнакомку Алёна в дом не пустит, а времени на ложь уже нет, девушка оттолкнула подругу и бросилась вглубь квартиры.[p]
+
+[_tb_end_text]
+
+[chara_mod  name="alyona"  time="600"  cross="true"  storage="chara/1/alyonaA.1.png"  ]
+[tb_start_text mode=1 ]
 #Алёна
 АААААААААА!![p]
 #Маша
@@ -199,11 +242,15 @@
 Мужу???!!![p]
 [_tb_end_text]
 
-[glink  color="black"  storage="chapter2.ks"  size="20"  text="Охуеть"  target="*ch3"  x="255"  y="319"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="chapter2.ks"  size="20"  text="Пиздец"  target="*ch3"  x="255"  y="369"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="chapter2.ks"  size="20"  text="Чего&nbsp;блять"  target="*ch3"  x="239"  y="420"  width=""  height=""  _clickable_img=""  ]
+[glink  color="pink"  storage="chapter2.ks"  size="30"  text="Охуеть"  target="*ch3"  x="180"  y="320"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="pink"  storage="chapter2.ks"  size="30"  text="Пиздец"  target="*ch3"  x="180"  y="400"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="pink"  storage="chapter2.ks"  size="30"  text="Чего&nbsp;блять"  target="*ch3"  x="180"  y="480"  width="270"  height="30"  _clickable_img=""  ]
 [s  ]
 *ch3
+
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 #Алёна
@@ -224,7 +271,15 @@
 Девушки прошли на кухню.[p]
 [_tb_end_text]
 
+[chara_hide  name="alyona"  time="1000"  wait="true"  pos_mode="true"  ]
+[stopbgm  time="1000"  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
 [bg  time="1000"  method="crossfade"  storage="chapter2/kitchen.jpg"  ]
+[chara_show  name="alyona"  time="1000"  wait="true"  left="310"  top="440"  storage="chara/1/alyonaA.0.png"  width="473"  height="1031"  reflect="false"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter2/spoons.ogg"  ]
 [tb_start_text mode=1 ]
 #Алёна
 Что ж, ладно. Всё равно мне жизнь моя не мила, да и я вижу, что ничего особого ты мне не сделаешь.[p]
@@ -248,10 +303,12 @@
 #
 Маша, слушая речь подруги, начала плакать.[p]
 #Алёна
--Эй, ну не плачь…[p]
+Эй, ну не плачь…[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [wait  time="2000"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Алёна
 Хочешь, я заварю тебе чай?[p]
@@ -279,38 +336,69 @@
 #
 Маша не могла поверить в произошедшее.[p]
 Переполненная радостными чувствами, она бросилась обнимать свою подругу, которая, в свою очередь, крепко-крепко обняла её.[p]
+[_tb_end_text]
+
+[chara_mod  name="alyona"  time="600"  cross="true"  storage="chara/1/alyonaA.1.png"  ]
+[tb_start_text mode=1 ]
 #Алёна
-Я всё вспомнила, спасибо тебе! [p]
-Стоп, что это на мне, хиджаб???? [p]
+Я всё вспомнила!!![p]
+[_tb_end_text]
+
+[chara_mod  name="alyona"  time="600"  cross="true"  storage="chara/1/alyonaA.4.png"  ]
+[tb_start_text mode=1 ]
+#Алёна
+Маша, спасибо тебе! [p]
+[_tb_end_text]
+
+[chara_mod  name="alyona"  time="600"  cross="true"  storage="chara/1/alyonaA.5.png"  ]
+[tb_start_text mode=1 ]
+#Алёна
+Стоп, что это на мне, хиджаб????[p]
 #Маша
 Хахха ты не представляешь, как я охуела, когда увидела тебя в нём[p]
+[_tb_end_text]
+
+[chara_mod  name="alyona"  time="600"  cross="true"  storage="chara/1/alyonaA.4.png"  ]
+[tb_start_text mode=1 ]
 #Алёна
 Ахахааха[p]
 Мусульманка…[p]
 #
 Оглянувшись, Маша увидела, что ребёнок исчез, а квартира вернулась в прежний вид.[p]
-Вместо пелёнок – толстовки Алёны, а вместо коробок с игрушками – настольные игры.[p]
-
 [_tb_end_text]
 
-[chara_mod  name="yuko"  time="600"  cross="true"  storage="chara/16/yuko1_L.png"  ]
+[chara_mod  name="alyona"  time="600"  cross="true"  storage="chara/1/alyonaB.2.png"  ]
 [tb_start_text mode=1 ]
+Вместо пелёнок – толстовки Алёны, а вместо коробок с игрушками – настольные игры.[p]
 Сама Алёна тоже преобразилась. Но вдруг…[p]
 Не успев насладиться минутой покоя, девушки слышат лязг ключей.[p]
 #Алёна
 О нет, это Лёша!! Надо бежать![p]
-#
+[_tb_end_text]
+
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter2/danger.ogg"  ]
+[chara_mod  name="alyona"  time="600"  cross="true"  storage="chara/1/alyonaB.1.png"  ]
+[chara_hide  name="alyona"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
 Дверь открылась и послышалось знакомое пыхтение. Парень разувался и снимал куртку.[p]
+
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/corridor.jpg"  ]
+[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/lyosha.png"  width="430"  height="650"  left="286"  top="580"  reflect="false"  ]
+[tb_start_text mode=1 ]
 #Лёша
 Эй ты! Что у тебя там опять случилось, тупица?! Неужели одна справиться со всем не можешь?![p]
 [_tb_end_text]
 
-[chara_hide  name="yuko"  time="1000"  wait="true"  pos_mode="true"  ]
-[bg  time="1000"  method="crossfade"  storage="chapter2/corridor.jpg"  ]
 [tb_autosave  title="AutoSave"  ]
-[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Схватить&nbsp;хиджаб"  target="*hidjab"  x="243"  y="410"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Схватить&nbsp;чайник"  target="*teapot"  x="246"  y="459"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter2.ks"  size="20"  text="Схватить&nbsp;сковороду"  target="*skovoroda"  x="233"  y="513"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Схватить&nbsp;хиджаб"  target="*hidjab"  x="150"  y="400"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Схватить&nbsp;чайник"  target="*teapot"  x="150"  y="480"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Схватить&nbsp;сковороду"  target="*skovoroda"  x="150"  y="560"  width="270"  height="30"  _clickable_img=""  ]
 [s  ]
 *hidjab
 
@@ -326,6 +414,8 @@
 Маша, беги!! Спасай Виталю!!![p]
 [_tb_end_text]
 
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_eval  exp="f.alyona_isAlive=0"  name="alyona_isAlive"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [jump  storage="chapter2.ks"  target="*end"  ]
 *teapot
 
@@ -334,11 +424,13 @@
 Чай они с Алёной всё равно уже не попьют.[p]
 Как только Лёша сворачивает на кухню, она выплескивает воду.[p]
 #Алёна
-АААААААААААААААААА!![p]
+АААААААААААААААААА!!![p]
 #
-Промахнувшись, Маша попадает кипятком Алёне на лицо, но и Лёшу тоже задевает.[p]
+Маша попадает кипятком Лёше на лицо, но и Алёну тоже задевает.[p]
 [_tb_end_text]
 
+[chara_mod  name="secondstaff"  time="600"  cross="true"  storage="chara/10/lyosha-alt.png"  ]
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_eval  exp="f.alyona_isAlive=2"  name="alyona_isAlive"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [jump  storage="chapter2.ks"  target="*end"  ]
 *skovoroda
@@ -350,21 +442,18 @@
 Лёша тут же упал.[p]
 [_tb_end_text]
 
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="false"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_eval  exp="f.alyona_isAlive=1"  name="alyona_isAlive"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 *end
 
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
 [jump  storage="chapter2.ks"  target="*bad_end"  cond="f.alyona_isAlive==0"  ]
-[jump  storage="chapter2.ks"  target="*good_end"  cond="f.alyona_isAlive==1"  ]
-[jump  storage="chapter2.ks"  target="*good_alt_end"  cond="f.alyona_isAlive==2"  ]
-*good_alt_end
-
-[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko6_L.png"  width="400"  height="533"  left="317"  top="415"  reflect="true"  ]
-[jump  storage="chapter2.ks"  target="*all_good"  ]
-*good_end
-
-[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko3_L.png"  width="400"  height="533"  left="317"  top="415"  reflect="true"  ]
-*all_good
-
+[call  storage="chapter2.ks"  target="*alyona1"  cond="f.alyona_isAlive==1"  ]
+[call  storage="chapter2.ks"  target="*alyona2"  cond="f.alyona_isAlive==2"  ]
 [tb_start_text mode=1 ]
 #Алёна
 Отлично! А теперь бежим отсюда![p]
@@ -373,11 +462,15 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="chapter2/door.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter2/spoons.ogg"  ]
 [tb_start_text mode=1 ]
 #Алёна
 Ох, это было круто![p]
 #Маша
 Еще бы![p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
 Девушки обнялись и стояли так еще несколько минут, пытаясь отдышаться и прийти в себя.[p]
 Когда мысли и дыхание были в порядке, их потревожил странный свет, который обступил Алёну со всех сторон.[p]
@@ -385,22 +478,28 @@
 ЧТО ПРОИСХОДИТ??[p]
 #Алёна
 Не беспокойся, всё хорошо! Я отправляюсь к месту встречи. [p]
+#
 Девушка медленно исчезала в пучине магического света. Маша была очень напугана, но озорная улыбка подруги успокаивала её.[p]
+#Алёна
 А, и еще! Когда найдешь Виталю - скажи ему, что я его люблю![p]
 #
 После этой фразы Алёна подмигнула и исчезла.[p]
 Её забрал луч...[p]
 [_tb_end_text]
 
+[chara_hide  name="alyona"  time="1000"  wait="true"  pos_mode="true"  ]
+[stopbgm  time="1000"  ]
 [jump  storage="chapter3.ks"  target=""  ]
 *bad_end
 
 [tb_start_text mode=1 ]
+#
 Мария, услышав что сказала ее подруга, пустилась наутек через открытую дверь квартиры.[p]
 Спотыкаясь чуть ли не на каждой ступеньке, она выбралась на улицу.[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="chapter2/door.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="common/badend.ogg"  ]
 [tb_start_text mode=1 ]
 #Маша
 БЛЛЛЯТЬ, НЕТ, НЕЕЕТ, ЭТО НЕ ДОЛЖНО БЫЛО ТАК ЗАКОНЧИТЬСЯ!!! У МЕНЯ ПОЧТИ ПОЛУЧИЛОСЬ!!![p]
@@ -414,5 +513,14 @@
 Может быть у меня получится спасти остальных...[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="chapter3.ks"  target=""  ]
 [s  ]
+*alyona1
+
+[chara_show  name="alyona"  time="1000"  wait="true"  storage="chara/1/alyonaB.2.png"  width="394"  height="947"  left="77"  top="578"  reflect="false"  ]
+[return  ]
+*alyona2
+
+[chara_show  name="alyona"  time="1000"  wait="true"  storage="chara/1/alyonaC.2.png"  width="394"  height="947"  left="77"  top="578"  ]
+[return  ]

@@ -1,8 +1,10 @@
 [_tb_system_call storage=system/_prologue.ks]
 
 [cm  ]
-[bg  storage="room.jpg"  time="1000"  ]
+[tb_eval  exp="f.currentChapter=0"  name="currentChapter"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[bg  storage="chapter1/mari_room_op.jpg"  time="1000"  ]
 [tb_show_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="prologue/prologue.ogg"  ]
 [tb_start_text mode=1 ]
 Пение птиц.[p]
 Звуки машин за окном.[p]
@@ -26,6 +28,8 @@
 После этих слов Маша укуталась в своё пуховое одеялко и погрузилась в так желанный ею сон.[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_hide_message_window  ]
-[jump  storage="chapter1.ks"  target="*start"  ]
+[jump  storage="clear_screen.ks"  target=""  ]
 [s  ]

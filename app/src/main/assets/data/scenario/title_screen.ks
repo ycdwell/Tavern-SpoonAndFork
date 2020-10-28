@@ -9,8 +9,14 @@
 [bg  storage="title.jpg"  ]
 *title
 
-[glink  color="black"  text="Новая&nbsp;Игра"  x="75"  y="370"  size="20"  target="*start"  ]
-[glink  color="black"  text="Загрузить&nbsp;Игру"  x="75"  y="470"  size="20"  target="*load"  ]
+[tb_start_tyrano_code]
+[if exp="sf.system.autosave ==true"]
+[glink  color="black"  storage=""  size="30"  text="Продолжить"  x="75"  y="310" width="" height="30"  _clickable_img=""  target="*autoload"  ]
+[endif]
+[_tb_end_tyrano_code]
+
+[glink  color="black"  text="Новая&nbsp;Игра"  x="75"  y="390"  size="30"  target="*start"  ]
+[glink  color="black"  text="Загрузить&nbsp;Игру"  x="75"  y="470"  size="30"  target="*load"  ]
 [s  ]
 *start
 
@@ -26,4 +32,11 @@
 [showload]
 
 [jump  target="*title"  storage=""  ]
+[s  ]
+*autoload
+
+[tb_start_tyrano_code]
+[autoload]
+[_tb_end_tyrano_code]
+
 [s  ]

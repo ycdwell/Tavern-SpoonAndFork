@@ -11,8 +11,6 @@
 
 ;live2D対応
 
-[plugin name="live2d"]
-
 
 [layopt layer=2 visible=true]
 [layopt layer="message0" visible=false]

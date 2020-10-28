@@ -1,31 +1,29 @@
 ;=========キャラクター事前定義情報 
-;mari.zateva
-;alyona.kapitonova
-[chara_new  name="alyona.kapitonova"  jname="alyona.kapitonova"  storage="chara/2/siluet.png"  ]
-;lyosha.shumilov
-;max.evstratov
-[chara_new  name="max.evstratov"  jname="max.evstratov"  storage="chara/4/siluet.png"  ]
-;max.shkutov
-;shkutov.father
-;shkutov.mother
-;alex.kaynak
-;yumatov
-;ycdwell
-;nikit.veretennikov
-;ksusha
-;schoolgirl
-;indus
-;kostya
-;yuko
-[chara_new  name="yuko"  jname="yuko"  storage="chara/16/yuko1_L.png"  ]
-;vchan
-[chara_new  name="vchan"  jname="vchan"  storage="chara/17/vchan_L1.png"  ]
-;mkun
-[chara_new  name="mkun"  jname="mkun"  storage="chara/18/mkun1_L.png"  ]
+;alyona
+[chara_new  name="alyona"  jname="alyona"  storage="chara/1/alyonaA.0.png"  ]
+;maxs
+[chara_new  name="maxs"  jname="maxs"  storage="chara/2/maxS.0.png"  ]
+;maxe
+[chara_new  name="maxe"  jname="maxe"  storage="chara/3/siluet.png"  ]
+;ser
+[chara_new  name="ser"  jname="ser"  storage="chara/4/serA.0.png"  ]
+;vit
+[chara_new  name="vit"  jname="vit"  storage="chara/5/vitA.0.png"  ]
+;ksu
+[chara_new  name="ksu"  jname="ksu"  storage="chara/6/1.png"  ]
+;kost
+;sask
+;sasv
+;secondstaff
+[chara_new  name="secondstaff"  jname="secondstaff"  storage="chara/10/indus.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 
-f['maxevstratov_isAlive']=0; 
-f['ycdwell_isAlive']=0; 
 f['alyona_isAlive']=0; 
+f['maxe_isAlive']=0; 
+f['ser_isAlive']=0; 
+f['sask_isAlive']=0; 
+f['currentChapter']=0; 
+f['feminist_sign']=0; 
+f['lookaround']=0; 
 [endscript] 

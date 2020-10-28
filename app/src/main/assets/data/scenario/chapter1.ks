@@ -1,10 +1,13 @@
 [_tb_system_call storage=system/_chapter1.ks]
 
-*start
-
 [cm  ]
-[bg  time="1000"  method="crossfade"  storage="black_pixel.png"  ]
+[tb_eval  exp="f.currentChapter=1"  name="currentChapter"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_show_message_window  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 Глава 1. "Пробуждение"[p]
 [_tb_end_text]
@@ -13,6 +16,7 @@
 [bg  time="1000"  method="crossfade"  storage="chapter1/mari_room.jpg"  ]
 [wait  time="1000"  ]
 [tb_show_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter1/wandering.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 Проснувшись, Маша смотрит на часы.[p]
 #Маша
@@ -56,7 +60,7 @@
 Макс пропал![p]
 [_tb_end_text]
 
-[chara_show  name="yuko"  time="1000"  wait="true"  storage="chara/16/yuko3_L.png"  width="400"  height="533"  left="317"  top="390"  reflect="true"  ]
+[chara_show  name="maxe"  time="1000"  wait="true"  storage=""  width="400"  height="533"  left="317"  top="390"  reflect="true"  ]
 [tb_start_text mode=1 ]
 #???
 Никуда я не пропал.[p]
@@ -80,9 +84,13 @@
 Распалась?! Это же…[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter1.ks"  size="20"  text="Охуеть"  target="*ch1_1"  x="235"  y="311"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter1.ks"  size="20"  text="Ебануться"  target="*ch1_1"  x="218"  y="360"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter1.ks"  size="20"  text="Пиздец"  target="*ch1_1"  x="234"  y="409"  width=""  height=""  _clickable_img=""  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Охуеть"  target="*ch1_1"  x="50"  y="320"  width="150"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Ебануться"  target="*ch1_1"  x="50"  y="400"  width="150"  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Пиздец"  target="*ch1_1"  x="50"  y="480"  width="150"  height=""  _clickable_img=""  ]
 [s  ]
 *ch1_1
 
@@ -97,15 +105,32 @@
 Пиздец…[p]
 [_tb_end_text]
 
-[chara_hide  name="yuko"  time="10"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="maxe"  time="10"  wait="true"  pos_mode="true"  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #
-Маша спускается и выходит из дома, Макса нигде не видно, зато видно ОГРОМНУЮ КРАСНУЮ ДЫРУ В НЕБЕ[p]
+Маша спускается и выходит из дома.[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter1.ks"  size="20"  text="Охуеть"  target="*ch1_2"  x="266"  y="533"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter1.ks"  size="20"  text="В&nbsp;рот&nbsp;ебать"  target="*ch1_2"  x="246"  y="584"  width=""  height=""  _clickable_img=""  ]
+[tb_hide_message_window  ]
+[wait  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="chapter1/mari_podyezd.jpg"  ]
+[tb_start_text mode=1 ]
+#
+Макса нигде не видно, зато видно ОГРОМНУЮ КРАСНУЮ ДЫРУ В НЕБЕ[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_start_tyrano_code]
+[autosave]
+[_tb_end_tyrano_code]
+
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Охуеть"  target="*ch1_2"  x="105"  y="420"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="В&nbsp;рот&nbsp;ебать"  target="*ch1_2"  x="75"  y="500"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *ch1_2
 
-[jump  storage="chapter2.ks"  target="*start"  ]
+[jump  storage="clear_screen.ks"  target=""  ]
