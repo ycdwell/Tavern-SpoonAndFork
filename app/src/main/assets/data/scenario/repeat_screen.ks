@@ -78,48 +78,57 @@
 [return  ]
 *prologue_sel
 
+[cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="prologue.ks"  target=""  ]
 [s  ]
 *episode1_sel
 
+[cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="chapter1.ks"  target=""  ]
 [s  ]
 *episode2_sel
 
+[cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="chapter2.ks"  target=""  ]
 [s  ]
 *episode3_sel
 
+[cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="chapter3.ks"  target=""  ]
 [s  ]
 *episode4_sel
 
+[cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="chapter4.ks"  target=""  ]
 [s  ]
 *episode5_sel
 
+[cm  ]
+[cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="chapter5.ks"  target=""  ]
 [s  ]
 *episode6_sel
 
+[cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="chapter6neg.ks"  target=""  ]
 [s  ]
 *episode7_sel
 
+[cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="chapter7.ks"  target=""  ]
