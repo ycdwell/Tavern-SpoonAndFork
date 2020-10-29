@@ -16,7 +16,7 @@
 [bg  time="1000"  method="crossfade"  storage="chapter1/mari_room.jpg"  ]
 [wait  time="1000"  ]
 [tb_show_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter1/wandering.ogg"  fadein="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter1/ambient.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 Проснувшись, Маша смотрит на часы.[p]
 #Маша
@@ -60,7 +60,7 @@
 Макс пропал![p]
 [_tb_end_text]
 
-[chara_show  name="maxe"  time="1000"  wait="true"  storage=""  width="400"  height="533"  left="317"  top="390"  reflect="true"  ]
+[chara_show  name="maxe"  time="1000"  wait="true"  storage="chara/3/siluet.png"  width="388"  height="807"  left="330"  top="527"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #???
 Никуда я не пропал.[p]
@@ -68,10 +68,19 @@
 Маша резко оборачивается[p]
 #Маша
 МАКС! Ты чего так пугаешь?![p]
+[_tb_end_text]
+
+[chara_hide  name="maxe"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="maxe"  time="1000"  wait="true"  storage="chara/3/maxeA.0.png"  width="309"  height="989"  left="386"  top="360"  reflect="true"  ]
+[tb_start_text mode=1 ]
 #Макс
 Ну ты же хотела кому-нибудь написать, чтобы кто-то пришел, я ведь прав?[p]
 #Маша
 Но я же ничего не написала… Я вообще не нашла беседу таверны, это, наверное, опять ВК лагает…[p]
+[_tb_end_text]
+
+[chara_mod  name="maxe"  time="600"  cross="true"  storage="chara/3/maxeA.2.png"  ]
+[tb_start_text mode=1 ]
 #Макс
 Не совсем. Ты сейчас во сне, но, чтобы выбраться отсюда, ты должна кое-что сделать.[p]
 Я сам не знаю многого, но наличие артефакта «Крепость сна» и способности дрим волкера позволяют мне в сильно ограниченном масштабе влиять на сновидения.[p]
@@ -79,6 +88,12 @@
 Эта энергия позволила мне ненадолго очнуться ото «сна», бля, в этом контексте звучит тупо…….[p]
 Времени немного, а сделать необходимо достаточно. [p]
 Предполагаю, что никто кроме меня не смог преодолеть оковы сна и тебе придется вызволять их самостоятельно.[p]
+[_tb_end_text]
+
+[chara_hide  name="maxe"  time="1"  wait="true"  pos_mode="true"  ]
+[chara_show  name="maxe"  time="1"  wait="true"  storage="chara/3/maxeA.1.png"  width="554"  height="994"  left="158"  top="360"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#Макс
 Таверна распалась и тебе нужно ее воссоединить. Как-нибудь…[p]
 #Маша
 Распалась?! Это же…[p]
@@ -89,11 +104,13 @@
 [_tb_end_tyrano_code]
 
 [glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Охуеть"  target="*ch1_1"  x="50"  y="320"  width="150"  height="30"  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Ебануться"  target="*ch1_1"  x="50"  y="400"  width="150"  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Пиздец"  target="*ch1_1"  x="50"  y="480"  width="150"  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Ебануться"  target="*ch1_1"  x="50"  y="420"  width="150"  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Пиздец"  target="*ch1_1"  x="50"  y="520"  width="150"  height=""  _clickable_img=""  ]
 [s  ]
 *ch1_1
 
+[chara_hide  name="maxe"  time="1"  wait="true"  pos_mode="true"  ]
+[chara_show  name="maxe"  time="1"  wait="true"  storage="chara/3/maxeA.0.png"  width="309"  height="986"  left="390"  top="367"  reflect="true"  ]
 [tb_start_text mode=1 ]
 #Маша
 Надо что-то с этим сделать, но как?[p]
@@ -105,7 +122,6 @@
 Пиздец…[p]
 [_tb_end_text]
 
-[chara_hide  name="maxe"  time="10"  wait="true"  pos_mode="true"  ]
 [tb_start_tyrano_code]
 [autosave]
 [_tb_end_tyrano_code]
@@ -116,20 +132,21 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[wait  time="1000"  ]
+[chara_hide  name="maxe"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="chapter1/mari_podyezd.jpg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 Макса нигде не видно, зато видно ОГРОМНУЮ КРАСНУЮ ДЫРУ В НЕБЕ[p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
 [tb_start_tyrano_code]
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Охуеть"  target="*ch1_2"  x="105"  y="420"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="В&nbsp;рот&nbsp;ебать"  target="*ch1_2"  x="75"  y="500"  width=""  height=""  _clickable_img=""  ]
+[tb_hide_message_window  ]
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="Охуеть"  target="*ch1_2"  x="75"  y="420"  width="163"  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter1.ks"  size="30"  text="В&nbsp;рот&nbsp;ебать"  target="*ch1_2"  x="75"  y="520"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *ch1_2
 

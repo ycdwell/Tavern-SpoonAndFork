@@ -19,7 +19,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Осмотреться"  width="353"  height="34"  x="121"  y="479"  _clickable_img=""  target="*1"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Осмотреться"  width="353"  height=""  x="121"  y="479"  _clickable_img=""  target="*1"  ]
 [s  ]
 *1
 
@@ -33,9 +33,9 @@
 *jump1
 
 [bg  time="1000"  method="crossfade"  storage="chapter9/road.jpg"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Трамвайная&nbsp;остановка"  width="340"  height="30"  x="125"  y="360"  _clickable_img=""  target="*1.1"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Велосипед"  width="340"  height="30"  x="125"  y="440"  _clickable_img=""  target="*1.2"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Машина"  width="340"  height="30"  x="125"  y="520"  _clickable_img=""  target="*1.3"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Трамвайная&nbsp;остановка"  width="340"  height="30"  x="125"  y="400"  _clickable_img=""  target="*1.1"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Велосипед"  width="340"  height="30"  x="125"  y="500"  _clickable_img=""  target="*1.2"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Машина"  width="340"  height="30"  x="125"  y="600"  _clickable_img=""  target="*1.3"  ]
 [s  ]
 *1.1
 
@@ -243,7 +243,7 @@
 
 [tb_hide_message_window  ]
 [chara_hide  name="vit"  time="1000"  wait="true"  pos_mode="true"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Поискать&nbsp;в&nbsp;палате"  x="153"  y="421"  width="299"  height="30"  _clickable_img=""  target="*2"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Поискать&nbsp;в&nbsp;палате"  x="153"  y="421"  width="299"  height=""  _clickable_img=""  target="*2"  ]
 [s  ]
 *2
 
@@ -255,9 +255,9 @@
 
 *jump2
 
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Посмотреть&nbsp;под&nbsp;подушкой"  width=""  height=""  x="115"  y="200"  _clickable_img=""  target="*2.1"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Посмотреть&nbsp;в&nbsp;ящике"  width=""  height=""  x="155"  y="280"  _clickable_img=""  target="*2.2"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Посмотреть&nbsp;в&nbsp;кармане&nbsp;куртки"  width=""  height=""  x="97"  y="360"  _clickable_img=""  target="*2.3"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Посмотреть&nbsp;под&nbsp;подушкой"  width=""  height=""  x="115"  y="300"  _clickable_img=""  target="*2.1"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Посмотреть&nbsp;в&nbsp;ящике"  width=""  height=""  x="155"  y="400"  _clickable_img=""  target="*2.2"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Посмотреть&nbsp;в&nbsp;кармане&nbsp;куртки"  width=""  height=""  x="97"  y="500"  _clickable_img=""  target="*2.3"  ]
 [tb_start_tyrano_code]
 [if exp="f.lookaround>=7"]
 [glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Поискать&nbsp;в&nbsp;другом&nbsp;месте"  x="125"  y="440" width="350" height="30"  _clickable_img=""  target="*2.4"  ]
@@ -319,8 +319,8 @@
 *jump3
 
 [bg  time="1000"  method="crossfade"  storage="chapter9/hospital2.jpg"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Войти&nbsp;в&nbsp;ординаторскую"  x="160"  y="289"  width="313"  height="30"  _clickable_img=""  target="*2.4.1"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Войти&nbsp;в&nbsp;складское&nbsp;помещение"  width="407"  height="30"  x="104"  y="369"  _clickable_img=""  target="*3"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Войти&nbsp;в&nbsp;ординаторскую"  x="160"  y="300"  width="313"  height=""  _clickable_img=""  target="*2.4.1"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Войти&nbsp;в&nbsp;складское&nbsp;помещение"  width="407"  height=""  x="104"  y="400"  _clickable_img=""  target="*3"  ]
 [s  ]
 *2.4.1
 
@@ -336,7 +336,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Вернуться&nbsp;в&nbsp;коридор"  target="*jump3"  x="152"  y="292"  width="334"  height="43"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Вернуться&nbsp;в&nbsp;коридор"  target="*jump3"  x="152"  y="400"  width="334"  height=""  _clickable_img=""  ]
 [s  ]
 *3
 
@@ -364,9 +364,9 @@
 
 [bg  time="1000"  method="crossfade"  storage="chapter9/warehouse_door.jpg"  ]
 [chara_mod  name="vit"  time="600"  cross="true"  storage="chara/5/vitA.6.png"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Снести&nbsp;дверь&nbsp;с&nbsp;разбега"  x="137"  y="242"  width="341"  height="44"  _clickable_img=""  target="*3.1"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Использовать&nbsp;шпильку"  x="135"  y="337"  width="340"  height="39"  _clickable_img=""  target="*3.2"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Использовать&nbsp;огнетушитель"  x="107"  y="429"  width="397"  height="39"  _clickable_img=""  target="*3.3"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Снести&nbsp;дверь&nbsp;с&nbsp;разбега"  x="137"  y="400"  width="341"  height=""  _clickable_img=""  target="*3.1"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Использовать&nbsp;шпильку"  x="135"  y="500"  width="340"  height=""  _clickable_img=""  target="*3.2"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Использовать&nbsp;огнетушитель"  x="107"  y="600"  width="397"  height=""  _clickable_img=""  target="*3.3"  ]
 [s  ]
 *3.1
 
@@ -428,7 +428,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Попробовать&nbsp;что-нибудь&nbsp;другое"  target="*jump4"  x="83"  y="312"  width="449"  height="46"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Попробовать&nbsp;что-нибудь&nbsp;другое"  target="*jump4"  x="83"  y="400"  width="449"  height=""  _clickable_img=""  ]
 [s  ]
 *3.3
 
@@ -512,7 +512,7 @@
 [chara_hide  name="vit"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
 [tb_image_show  time="2001"  storage="default/chapter9/bracelet.png"  width="398"  height="213"  x="161"  y="355"  _clickable_img=""  name="img_169"  ]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Взять&nbsp;браслет"  x="189"  y="613"  width="212"  height="36"  _clickable_img=""  target="*4"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Взять&nbsp;браслет"  x="189"  y="613"  width="212"  height=""  _clickable_img=""  target="*4"  ]
 [s  ]
 *4
 
@@ -612,6 +612,7 @@
 [s  ]
 *alyona_not_saved
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="common/badend.ogg"  ]
 [tb_start_text mode=1 ]
 #Маша
 Ну, как тебе сказать….[p]
@@ -640,5 +641,6 @@
 Обоих забрал луч. [p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  ]
 [jump  storage="clear_screen.ks"  target=""  ]
 [s  ]

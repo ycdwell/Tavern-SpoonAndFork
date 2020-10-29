@@ -72,8 +72,8 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="black"  storage="chapter6neg.ks"  size="30"  text="Толкнуть&nbsp;Никиту"  x="180"  y="360"  width=""  height=""  _clickable_img=""  target="*push_nikitA"  ]
-[glink  color="black"  storage="chapter6neg.ks"  size="30"  text="Стащить&nbsp;Сережу&nbsp;с&nbsp;моста"  x="120"  y="440"  width=""  height=""  _clickable_img=""  target="*pull_ser"  ]
+[glink  color="rosy"  storage="chapter6neg.ks"  size="30"  text="Толкнуть&nbsp;Никиту"  x="180"  y="400"  width=""  height=""  _clickable_img=""  target="*push_nikitA"  ]
+[glink  color="rosy"  storage="chapter6neg.ks"  size="30"  text="Стащить&nbsp;Сережу&nbsp;с&nbsp;моста"  x="120"  y="500"  width=""  height=""  _clickable_img=""  target="*pull_ser"  ]
 [s  ]
 *push_nikitA
 
@@ -135,6 +135,7 @@
 [_tb_end_text]
 
 [tb_eval  exp="f.ser_isAlive=0"  name="ser_isAlive"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="common/badend.ogg"  ]
 [chara_hide  name="ser"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/nikita-alt.png"  width="154"  height="380"  left="201"  top="441"  reflect="true"  ]
 [chara_move  name="secondstaff"  anim="true"  time="300"  effect="linear"  wait="true"  ]
@@ -160,8 +161,8 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="black"  storage="chapter6neg.ks"  size="30"  text="Толкнуть&nbsp;Никиту"  target="*push_nikitB"  ]
-[glink  color="black"  storage="chapter6neg.ks"  size="30"  text="Прогнать&nbsp;его"  target="*send_away"  x="194"  y="479"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter6neg.ks"  size="30"  text="Толкнуть&nbsp;Никиту"  target="*push_nikitB"  y="400"  x="185"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter6neg.ks"  size="30"  text="Прогнать&nbsp;его"  target="*send_away"  x="210"  y="500"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *push_nikitB
 
@@ -181,6 +182,7 @@
 Ты заслужил это.[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  ]
 [jump  storage="clear_screen.ks"  target=""  ]
 [s  ]
 *send_away
@@ -196,6 +198,7 @@
 [tb_hide_message_window  ]
 [chara_move  name="secondstaff"  anim="true"  time="1200"  effect="linear"  wait="true"  left="759"  top="448"  width="161"  height="395"  ]
 [chara_hide  name="secondstaff"  time="1"  wait="true"  pos_mode="true"  ]
+[stopbgm  time="1000"  ]
 [jump  storage="clear_screen.ks"  target=""  ]
 [s  ]
 *final
@@ -247,6 +250,7 @@
 Маша остается одна.[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [chara_hide  name="ser"  time="1000"  wait="true"  pos_mode="true"  ]
 [jump  storage="clear_screen.ks"  target=""  ]
 [s  ]

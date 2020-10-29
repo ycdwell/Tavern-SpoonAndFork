@@ -32,12 +32,12 @@
 После этих слов Маша укуталась в своё пуховое одеялко и погрузилась в так желанный ею сон.[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [tb_start_tyrano_code]
 [autosave]
 [_tb_end_tyrano_code]
 
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[tb_hide_message_window  ]
 [jump  storage="clear_screen.ks"  target=""  ]
 [s  ]

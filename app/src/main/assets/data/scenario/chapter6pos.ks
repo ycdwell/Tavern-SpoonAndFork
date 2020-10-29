@@ -15,6 +15,7 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="chapter6/bridge.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="chapter6/ambient.ogg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 Темно-бордовый луч, казалось бы, поглощающий саму землю, но по неизвестным причинам бьющий из зияющей в небе дыры приводит к себе нашу героиню и ее помощника к мосту.[p]
@@ -74,8 +75,8 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="black"  storage="chapter6pos.ks"  size="30"  text="Толкнуть&nbsp;Никиту"  x="180"  y="360"  width=""  height=""  _clickable_img=""  target="*push_nikitA"  ]
-[glink  color="black"  storage="chapter6pos.ks"  size="30"  text="Стащить&nbsp;Сережу&nbsp;с&nbsp;моста"  x="120"  y="440"  width=""  height=""  _clickable_img=""  target="*pull_ser"  ]
+[glink  color="rosy"  storage="chapter6pos.ks"  size="30"  text="Толкнуть&nbsp;Никиту"  x="180"  y="400"  width=""  height=""  _clickable_img=""  target="*push_nikitA"  ]
+[glink  color="rosy"  storage="chapter6pos.ks"  size="30"  text="Стащить&nbsp;Сережу&nbsp;с&nbsp;моста"  x="120"  y="500"  width=""  height=""  _clickable_img=""  target="*pull_ser"  ]
 [s  ]
 *push_nikitA
 
@@ -158,8 +159,8 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="black"  storage="chapter6pos.ks"  size="30"  text="Толкнуть&nbsp;Никиту"  target="*push_nikitB"  ]
-[glink  color="black"  storage="chapter6pos.ks"  size="30"  text="Прогнать&nbsp;его"  target="*send_away"  x="194"  y="479"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter6pos.ks"  size="30"  text="Толкнуть&nbsp;Никиту"  target="*push_nikitB"  x="180"  y="400"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter6pos.ks"  size="30"  text="Прогнать&nbsp;его"  target="*send_away"  x="205"  y="500"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *push_nikitB
 
@@ -273,6 +274,7 @@
 С этими словами Макс и Сережа взмывают и растворяются в луче...[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_eval  exp="f.ser_isAlive=1"  name="ser_isAlive"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="clear_screen.ks"  target=""  ]

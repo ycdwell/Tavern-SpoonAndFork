@@ -1,7 +1,7 @@
 [_tb_system_call storage=system/_chapter51.ks]
 
 [cm  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter5/wandering.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter5/ambient.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="chapter5/kemsu.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
@@ -13,7 +13,7 @@
 Вот же сука, а...[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Попытаться&nbsp;открыть&nbsp;дверь"  x="105"  y="420"  width=""  height="30"  _clickable_img=""  target="*tryagain"  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Попытаться&nbsp;открыть&nbsp;дверь"  x="105"  y="400"  width=""  height="30"  _clickable_img=""  target="*tryagain"  ]
 [glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Уйти"  x="255"  y="500"  width=""  height=""  _clickable_img=""  target="*leave"  ]
 [s  ]
 *tryagain
@@ -33,7 +33,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="rosy"  storage="chapter51.ks"  size="30"  target="*lookaround"  text="Осмотреться"  x="190"  y="420"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  target="*lookaround"  text="Осмотреться"  x="190"  y="400"  width=""  height=""  _clickable_img=""  ]
 [glink  color="rosy"  storage="chapter51.ks"  size="30"  target="*leave"  text="Уйти"  x="252"  y="500"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *lookaround
@@ -52,10 +52,10 @@
 [_tb_end_tyrano_code]
 
 [bg  time="1000"  method="crossfade"  storage="chapter5/kemsu.jpg"  ]
-[glink  color="black"  storage="chapter51.ks"  size="30"  text="Взять&nbsp;лом"  x="208"  y="366"  width=""  height=""  _clickable_img=""  target="*lom"  ]
-[glink  color="black"  storage="chapter51.ks"  size="30"  text="Сесть&nbsp;в&nbsp;машину"  x="169"  y="442"  width=""  height=""  _clickable_img=""  target="*car"  ]
-[glink  color="black"  storage="chapter51.ks"  size="30"  text="Заглянуть&nbsp;под&nbsp;коврик"  x="134"  y="520"  width=""  height=""  _clickable_img=""  target="*cover"  ]
-[glink  color="black"  storage="chapter51.ks"  size="30"  target="*leave"  x="247"  y="598"  width=""  height=""  _clickable_img=""  text="Уйти"  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Взять&nbsp;лом"  x="208"  y="400"  width=""  height=""  _clickable_img=""  target="*lom"  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Сесть&nbsp;в&nbsp;машину"  x="169"  y="500"  width=""  height=""  _clickable_img=""  target="*car"  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Заглянуть&nbsp;под&nbsp;коврик"  x="134"  y="600"  width=""  height=""  _clickable_img=""  target="*cover"  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  target="*leave"  x="247"  y="700"  width=""  height=""  _clickable_img=""  text="Уйти"  ]
 [s  ]
 *lom
 
@@ -70,6 +70,7 @@
 [_tb_end_text]
 
 [jump  storage="chapter51.ks"  target="*tryagain2"  ]
+[tb_image_hide  time="1000"  ]
 *car
 
 [tb_start_tyrano_code]
@@ -86,9 +87,9 @@
 Как бы теперь заехать туда… Хотя ступеньки мелкие, можно попытаться разогнаться и въехать. Что ж, вариантов немного.[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="chapter51.ks"  size="30"  text="Въехать&nbsp;в&nbsp;дверь"  x="149"  y="371"  width=""  height=""  _clickable_img=""  target="*go"  ]
-[glink  color="black"  storage="chapter51.ks"  size="30"  text="Выпрыгнуть&nbsp;на&nbsp;ходу"  x="123"  y="451"  width=""  height=""  _clickable_img=""  target="*jumpover"  ]
-[glink  color="black"  storage="chapter51.ks"  size="30"  text="Выйти&nbsp;из&nbsp;машины"  x="139"  y="529"  width=""  height=""  _clickable_img=""  target="*tryagain2"  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Въехать&nbsp;в&nbsp;дверь"  x="149"  y="400"  width=""  height=""  _clickable_img=""  target="*go"  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Выпрыгнуть&nbsp;на&nbsp;ходу"  x="123"  y="500"  width=""  height=""  _clickable_img=""  target="*jumpover"  ]
+[glink  color="rosy"  storage="chapter51.ks"  size="30"  text="Выйти&nbsp;из&nbsp;машины"  x="139"  y="600"  width=""  height=""  _clickable_img=""  target="*tryagain2"  ]
 [s  ]
 *go
 
@@ -131,13 +132,14 @@
 Взглянув под коврик, Маша находит заколку, которая очень напоминает значок, который висел когда-то на рюкзаке Макса.[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/chapter5/feminist.png"  width="336"  height="163"  x="160"  y="200"  _clickable_img=""  name="img_56"  ]
-[glink  color="black"  storage="chapter51.ks"  size="30"  text="Взять"  x="238"  y="411"  width=""  height=""  _clickable_img=""  target="*take"  ]
-[glink  color="black"  storage="chapter51.ks"  size="30"  text="Оставить"  x="209"  y="492"  width=""  height=""  _clickable_img=""  target="*tryagain2"  ]
+[tb_image_show  time="1000"  storage="default/chapter5/feminist.png"  width="336"  height="163"  x="160"  y="200"  _clickable_img=""  name="img_60"  ]
+[glink  color="black"  storage="chapter51.ks"  size="30"  text="Взять"  x="238"  y="400"  width=""  height=""  _clickable_img=""  target="*take"  ]
+[glink  color="black"  storage="chapter51.ks"  size="30"  text="Оставить"  x="209"  y="500"  width=""  height=""  _clickable_img=""  target="*tryagain2"  ]
 [s  ]
 *take
 
 [tb_eval  exp="f.feminist_sign=1"  name="feminist_sign"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
 Как только Маша взяла заколку, дверь засветилась синим светом и сияние разлетелось на куски.[p]
 [_tb_end_text]
@@ -146,11 +148,12 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="black"  storage="chapter5.ks"  size="20"  text="Попытаться&nbsp;открыть&nbsp;дверь"  x="173"  y="458"  width=""  height=""  _clickable_img=""  target="*extendedcut"  ]
-[glink  color="black"  storage="chapter51.ks"  size="20"  target="*leave"  text="Уйти"  x="280"  y="510"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="chapter5.ks"  size="30"  text="Попытаться&nbsp;открыть&nbsp;дверь"  x="105"  y="500"  width=""  height=""  _clickable_img=""  target="*extendedcut"  ]
+[glink  color="black"  storage="chapter51.ks"  size="30"  target="*leave"  text="Уйти"  x="260"  y="600"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *leave
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="common/badend.ogg"  ]
 [tb_show_message_window  ]
 [tb_eval  exp="f.maxe_isAlive=0"  name="maxe_isAlive"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_start_tyrano_code]
@@ -162,4 +165,5 @@
 Кажется, я больше никак не смогу помочь тебе... Прости, Макс.[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  ]
 [jump  storage="clear_screen.ks"  target=""  ]

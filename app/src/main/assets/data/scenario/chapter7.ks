@@ -13,18 +13,34 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter7/глава_7_сп.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="chapter8/school.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="bg_white.jpg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="chapter7/noise.ogg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-Марию тревожил странный и непонятный шум и, кроме этого, невероятно сильный свет.Даже с закрытыми глазами было светло как днем.[p]
+Марию тревожил странный и непонятный шум и, кроме этого, невероятно сильный свет. Даже с закрытыми глазами было светло как днем.[p]
 Но набравшись решимости, она все-таки открывает глаза.[p]
 Открыв глаза, она подметила, что шум исчез, а свет был не таким уж и сильным.[p]
 Первым, на что она обратила внимание, это свет. Он имел очень странную форму и пульсировал и был очень похож на пульсирующую артерию, по которой будто бы текла вся мощь солнца.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/sky.jpg"  ]
+[tb_start_text mode=1 ]
+#
 Над ее головой царило невероятно темное (даже цвета только что выложенного асфальта, имеющий густой и черный смолянистый цвет) небо, через которое и проходил этот луч.[p]
 Проследив за лучом, Маша увидела, что он падает на здание.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/crossroad.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter7/ambient.ogg"  ]
+[tb_start_text mode=1 ]
+#
 Осмотревшись по сторонам, наша героиня узнала окружение (хотя она и сама не помнит каким образом и когда она смогла там побывать).[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
 Это была длинная улочка, которая была покрыта мраком, а самое главное - нигде не было ни людей, ни каких-либо животных или птиц.[p]
 #Маша
 Это какая-то странная хрень, но я чувствую, что должна со всем разобраться.[p]
@@ -32,16 +48,19 @@
 
 *sel1
 
+[bg  time="1000"  method="crossfade"  storage="chapter7/crossroad.jpg"  ]
 [tb_start_tyrano_code]
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Постоять-посмотреть"  target="*stay"  ]
-[glink  color="black"  storage="chapter7.ks"  size="30"  text="Исследовать&nbsp;местность"  target="*lookaround"  ]
-[glink  color="black"  storage="chapter7.ks"  size="30"  text="Идти&nbsp;дальше"  target="*go"  ]
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Постоять-посмотреть"  target="*stay"  x="130"  y="400"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Исследовать&nbsp;местность"  target="*lookaround"  y="500"  x="115"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Идти&nbsp;дальше"  target="*go"  y="600"  x="188"  width=""  height=""  _clickable_img=""  ]
+[s  ]
 *stay
 
 [tb_start_text mode=1 ]
+#
 Решив, что ей некуда торопиться, Маша осматривает все окружение и замечает, что улицы хоть и безлюдные, но было удивительно чисто.[p]
 Обычно же люди оставляют после себя много мусора, да и природа любит скинуть с уставших деревьев их листья.[p]
 #Маша
@@ -49,24 +68,44 @@
 #
 Так же она заприметила странный, даже не вписывающийся в эту атмосферу центра города магазинчик.[p]
 Он выглядел очень старым, потрепанным и заброшенным, как будто его не посещали уже несколько десятков лет.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/horoshiy.jpg"  ]
+[tb_start_text mode=1 ]
+#
 Вывеска гласила "Хороший магазин".[p]
 #Маша
 Я бы на их месте получше подумала бы над названием...[p]
 #
-Дальше были здания МВД, областного суда и какая-то пятиэтажка с баннерами...[p]
+Дальше были здания МВД...[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/mvd.jpg"  ]
+[tb_start_text mode=1 ]
+...областного суда...[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/build2.jpg"  ]
+[tb_start_text mode=1 ]
+...и какая-то пятиэтажка с баннерами...[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/build1.jpg"  ]
+[tb_start_text mode=1 ]
 #Маша
 Бесполезные баннеры...[p]
 #
-После того как Мария осмотрела все, что ее окружала, она опять начала думать, что делать.[p]
+После того как Мария осмотрела все, что ее окружало, она опять начала думать, что делать.[p]
 [_tb_end_text]
 
 [jump  storage="chapter7.ks"  target="*sel1"  ]
 *lookaround
 
+[bg  time="1000"  method="crossfade"  storage="chapter7/horoshiy.jpg"  ]
 [tb_start_text mode=1 ]
 #
 Маша отправилась к ближайшему зданию.[p]
-Это была очень старая и пошарпанная пятиэтажка, в которой находился магазин.[p]
+Это была очень старая и пошарпанная двухэтажка, в которой находился магазин.[p]
 Подойдя к его двери, она решила заглянуть в дверь, ведь она была стеклянная.[p]
 Но как бы она ни старалась, как ни пыталась увидеть что-то через стекло двери - все было тщетно.[p]
 #Маша
@@ -79,52 +118,100 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Выбить&nbsp;дверь"  ]
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Выбить&nbsp;дверь"  target="*knockout"  x="190"  y="500"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Поискать&nbsp;в&nbsp;другом&nbsp;месте"  target="*sel1"  x="110"  y="600"  width=""  height=""  _clickable_img=""  ]
+[s  ]
+*knockout
+
 [tb_start_text mode=1 ]
 #
 Решив, что ей стоит попробовать открыть дверь, она с удивительной лёгкостью попадает во внутрь.[p]
 Внутри она обнаруживает, что хоть магазин и выглядит заброшенным в нем было чисто, а пыль была только на стекле.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/shop.jpg"  ]
+[tb_start_text mode=1 ]
 Немного пройдя дальше она увидела странный манекен, держащий в своих руках Балтику.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/shop1.jpg"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[tb_start_text mode=1 ]
 #Маша
 Странности - странностями, а пиво по расписанию.[p]
 #
 Подойдя ближе, она подумала что манекен живой, но потом эта мысль исчезла.[p]
 Вытащив Балтику из рук манекена, она решила незамедлительно ее открыть.[p]
-
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="1"  storage="chapter7/beer.ogg"  clear="true"  ]
+[tb_hide_message_window  ]
+[wait  time="3000"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 Отвернувшись от манекена, она сделала несколько глотков и собралась уходить, но сделав пару шагов она почувствовала, что сзади нее кто-то есть.[p]
+[_tb_end_text]
+
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter7/threat.ogg"  ]
+[stopse  time="1000"  buf="0"  ]
+[tb_start_text mode=1 ]
 Резко обернувшись она увидела только манекена, который как ей показалось сдвинулся с места.[p]
 Решив проверить это, она опять повернулась и сделала еще несколько шагов.[p]
 Повернувшись она заметила, что манекен опять сдвинулся и в этот раз он был ближе к ней.[p]
 Ей стало очень страшно и она сделала роковую ошибку - она опять отвернулась от него и начала бежать.[p]
 И вот она почти выбежала из магазина, как почувствовала холодные руки на своих ногах, которые очень сильно ее держали и тянули за собой.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/shop2.jpg"  ]
+[tb_start_text mode=1 ]
 В этот момент Мария упала головой об кафель и почувствовала потерю сознания.[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
+[wait  time="3000"  ]
+[tb_show_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter7/threat.ogg"  ]
+[bg  time="1000"  method="crossfade"  storage="chapter7/shop2.jpg"  ]
+[tb_start_text mode=1 ]
 Очнувшись она открыла глаза и первым делом она хотела закричать и уйти, ведь она стояла в этом же магазине, но она не могла ни открыть рта, ни пошевелиться.[p]
-Ища глазами по всему помещению ,что-нибудь для спасения, она увидела зеркало и посмотрев в него она поняла - теперь она сама манекен.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
+[tb_start_text mode=1 ]
+Ища глазами по всему помещению, что-нибудь для спасения, она увидела зеркало и посмотрев в него она поняла...[p]
+...теперь она сама манекен.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/manequin.jpg"  ]
+[tb_start_text mode=1 ]
 Ей хотелось плакать и кричать, но рот не мог этого позволить.[p]
 И понимая, что она не сможет ничего сделать, она испытала отчаяние.[p]
 По ее щеками покатилась слеза, но она этого уже не чувствовала...[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_hide_message_window  ]
 [tb_ptext_show  x="80"  y="500"  size="30"  color="0xffffff"  time="1000"  anim="false"  face="Arial"  text="Думаю&nbsp;нужно&nbsp;сменить&nbsp;стратегию."  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="80"  y="540"  size="30"  color="0xffffff"  time="1000"  text="Мы&nbsp;как&nbsp;раз&nbsp;сохранились&nbsp;за&nbsp;тебя&nbsp;<3"  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [l  ]
 [tb_show_message_window  ]
 [tb_autoload  ]
-[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Поискать&nbsp;в&nbsp;другом&nbsp;месте"  target="*sel1"  ]
 *go
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter7/ambient.ogg"  ]
 [tb_start_text mode=1 ]
-Маша шла по улице и проходила мимо странного магазинчика, зданий МВД, областного суда и какая-то пятиэтажки с баннерами...[p]
-#Маша
-Бесполезные баннеры...[p]
+Маша шла по улице и проходила мимо странного магазинчика, зданий МВД, областного суда и пятиэтажки с баннерами...[p]
 #
 Дальше виднелось здание, на которое падал свет.[p]
 На главном входе было что-то вроде вывески, но в это с трудом верилось, так как от былой вывески, которая там красовалась, осталось несколько букв.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/komk.jpg"  ]
+[tb_start_text mode=1 ]
 #Маша
 КОМК - интересно, что бы это могло значить?[p]
 Ааааааа...[p]
@@ -132,11 +219,23 @@
 #
 Тот самый, в котором пропала группа из 13 человек и который впоследствии был закрыт на карантин.[p]
 Недолго думая, наша героиня вошла в здание.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/entrance.jpg"  ]
+[tb_start_text mode=1 ]
 В нем сильно пахло знакомым для Маши запахом девяносто шестиградусной спиртяги...[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/cabinet.jpg"  ]
+[tb_start_text mode=1 ]
 Первым препятствием Маши стал дежурный преподаватель - Елена Борисовна - так гласил ее бейдж.[p]
 Судя по тому что она говорила - она вела историю. Выглядела же она так, будто ей лет сто, не меньше.[p]
 #Маша
 Здравствуйте, а что вы тут делаете и где все люди?[p]
+[_tb_end_text]
+
+[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/baba_lena.png"  width="313"  height="469"  left="3"  top="544"  reflect="false"  ]
+[tb_start_text mode=1 ]
 #Баба Лена
 ТУТ ВОПРОСЫ ЗАДАЮ Я![p]
 ДА КАК ТЫ ВООБЩЕ СМЕЕШЬ  МЕШАТЬ ПРЕПОДАВАТЕЛЮ ВО ВРЕМЯ ЛЕКЦИИ?![p]
@@ -149,9 +248,10 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="rosy"  storage="chapter7.ks"  size="20"  text="Слышь&nbsp;ты!"  target="*hey_you"  ]
-[glink  color="black"  storage="chapter7.ks"  size="20"  text="Извините,&nbsp;я&nbsp;вас&nbsp;слушаю"  target="*im_listening"  ]
-[glink  color="black"  storage="chapter7.ks"  size="20"  text="Я&nbsp;не&nbsp;учусь&nbsp;здесь!"  target="*im_not_local"  ]
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Слышь,&nbsp;ты!"  target="*hey_you"  x="220"  y="300"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Извините,&nbsp;я&nbsp;вас&nbsp;слушаю"  target="*im_listening"  x="130"  y="400"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Я&nbsp;не&nbsp;учусь&nbsp;здесь!"  target="*im_not_local"  x="180"  y="500"  width=""  height=""  _clickable_img=""  ]
+[s  ]
 *hey_you
 
 [tb_start_text mode=1 ]
@@ -172,22 +272,31 @@
 Всегда пожалуйста дорогуша.[p]
 [_tb_end_text]
 
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="true"  ]
+[jump  storage="chapter7.ks"  target="*part2"  ]
 *im_listening
 
 [tb_start_text mode=1 ]
 #Маша
-Ой простите пожалуйста,я вас внимательно слушаю[p]
+Ой простите пожалуйста, я вас внимательно слушаю[p]
 #Баба Лена
 Вот, это правильно! Так, а теперь будем проходить весь курс истории…[p]
-
 [_tb_end_text]
 
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
-[wait  time="3000"  ]
+[bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
+[wait  time="2000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 Прошло три часа...[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="chapter7/cabinet.jpg"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 #Маша
 Ну долго еще?[p]
 #
@@ -220,69 +329,215 @@
 Так вот зачем я здесь, спасибо!![p]
 [_tb_end_text]
 
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="true"  ]
+*part2
+
 [tb_start_text mode=1 ]
 #
 Поднимаясь по лестнице Маша успела заметить, что во всем здании было очень тихо и мрачно.[p]
-Идя вдоль коридора, она пыталась осмотреть каждый открытый кабинет, ведь она точно не знает куда идти.[p]
-Пока она шла, через стеклянные двери колледжа на нее падал свет. Она заглядывала туда, но не замечала ничего кроме манекенов, которые были в каждом кабинете.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/corridor.jpg"  ]
+[tb_start_text mode=1 ]
+Идя вдоль коридора, она пыталась осмотреть каждый...[p]
+открытый...[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/cabinet3.jpg"  ]
+[tb_start_text mode=1 ]
+кабинет...[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/cabinet2.jpg"  ]
+[tb_start_text mode=1 ]
+Ведь она точно не знает куда идти.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/corridor.jpg"  ]
+[tb_start_text mode=1 ]
+Пока она шла, через стеклянные двери колледжа на нее падал свет.[p]
+Она заглядывала туда, но не замечала ничего кроме манекенов, которые были в каждом кабинете.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/maneken.jpg"  ]
+[tb_start_text mode=1 ]
 И вот она зашла в одну из множеств дверей, и перед ее глазами предстал Костик.[p]
+
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/corpse.jpg"  ]
+[chara_show  name="kost"  time="1000"  wait="true"  storage="chara/7/kost.2.png"  width="314"  height="889"  left="378"  top="538"  reflect="false"  ]
+[tb_start_text mode=1 ]
 Он был очень пассивный, и казалось что он даже сам становился манекеном.[p]
-В его глазах можно было разглядеть грусть и уныние, сложилось такое ощущение как будто у него была депрессия из которой он никак не мог выбраться и она пожирала его душу.[p]
-Маше показалось ,что он хотел что-то сделать,но обратив внимание она заметила ,что его конечности стали частью манекена, и это ее ужаснуло.[p]
+В его глазах можно было разглядеть грусть и уныние. Сложилось такое ощущение как будто он страдал от депрессии, из которой он никак не мог выбраться, и она пожирала его душу.[p]
+Маше показалось ,что он хотел что-то сделать, но обратив внимание она заметила, что его конечности стали частью манекена...[p]
 #Маша
-Костяпривет, ты помнишь меня?[p]
+Костя, привет, ты помнишь меня?[p]
 #Костя
-Я не знаю кто ты,прости меня если я тебя забыл,у меня очень сложный план учебы, у меня практика 24 часа в сутки...[p]
+Я не знаю кто ты, прости меня, если я тебя забыл. У меня очень сложный план учебы, у меня практика 24 часа в сутки...[p]
 #Маша
 Но как же так? Ты не помнишь Ксюшу, Алёну и других ребят? Что с тобой происходит.[p]
 #Костя
-Я совершенно не понимаю о чем идет речь, единственное ,что меня сейчас беспокоит, так это что-то красное, помню что мне это подарил кто-то очень важный для меня... [p]
+Я совершенно не понимаю о чем идет речь... Единственное, что меня сейчас беспокоит - это что-то красное... Помню что мне это подарил кто-то очень важный... [p]
 #Маша
 То есть ты даже не помнишь свое прошлое ?[p]
 #Костя
-Нет,я прекрасно запомнил то ,что меня окружает и по сей день, мои воспоминания всегда состояли только из уныния и тоски... (ред.)[p]
+Нет, я прекрасно запомнил то, что меня окружает даже сейчас. Мои воспоминания всегда состояли только из уныния и тоски...[p]
 #Маша
 А что же тогда произошло с людьми? Почему ты тут один?[p]
 #Костя
-Раньше тут учились 2к человек, но их забрали, как и меня...[p]
+Раньше тут учились две тысячм человек, но их забрали. Как и меня...[p]
 #Маша
-Кто это сделал ?Куда они вас забрали ?[p]
+Кто это сделал? Куда они вас забрали?[p]
 #Костя
-Манекены. Эти чертовы суки забрали нас всех и делали на нас все то ,что мы делали с ними. А те кто им был не нужен были превращены в себе подобных ,но и этого им было мало. Они питаются нашими чувствами и хорошими воспоминаниями. Наверное у меня было много всего хорошего, раз я остался последним...[p]
+Манекены. Эти чертовы суки забрали нас всех! Они делали на нас все то, что мы делали с ними.[p]
+А те кто им был не нужен были превращены в себе подобных, но и этого им было мало...[p]
+Они питаются нашими чувствами и хорошими воспоминаниями.[p]
+Наверное у меня было много всего хорошего, раз я остался последним...[p]
 #Маша
-Я постараюсь тебе помочь и мы вместе разберемся с этим[p]
+Я постараюсь тебе помочь и мы вместе разберемся с этим.[p]
 #Костя
-......[p]
+.......[p]
 #
-В его глазах было отчаяние, наверное он уже и не надеялся на хороший финал. Не долго думая Маша решила начать поиски *чего-то красного*[p]
-По началу она не могла понять ,что же это могло быть, но потом она вспомнила про сердечко ,которое Ксюша подарила ему в один из вечеров, когда они все сидели компанией.[p]
+В его глазах было отчаяние, наверное он уже и не надеялся на хороший финал.[p]
+Недолго думая Маша решила начать поиски "чего-то красного".[p]
+[_tb_end_text]
 
+[chara_hide  name="kost"  time="1000"  wait="true"  pos_mode="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter7/threat.ogg"  ]
+[bg  time="1000"  method="crossfade"  storage="chapter7/corridor.jpg"  ]
+[tb_start_text mode=1 ]
+Поначалу она не могла понять, что же это могло быть.[p]
+Но потом вспомнила про сердечко, которое Ксюша подарила ему в один из вечеров, когда они сидели всей компанией.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-В голову пришла мысль: если он носил эту брошку с пальто, значит нужно искать его[p]
-Идя по 2 этажу она увидела кабинет. У него была обычная дверь, но он был открыт. Открыв его она увидела кучу манекенов и на каждом была одежда. Найдя заветное пальто ,она отцепила брошку и устремилась обратно к Косте. Пока она шла ей попалось кое-что интересное. через стеклянную дверь одного из кабинетов она увидела манекенов[p]
-которые приводили одного из студентов в состояние Симса[p]
-это было слышно по звукам[p]
-но как только она подошла к двери[p]
-она увидела манекенов ,которые были неподвижны,но были как буд-то остановлены во время процесса и имели специфические позы[p]
-она решила опять попробывать заглянуть,и как только она это сделала,она очень сильно испугалась ведь манекены были вплотную у двери и смотрели на нее своими пустыми глазами [p]
-она решила как можно быстрее дойти до Кости и вернуть ему брошку[p]
-Но как только она зашла в кабинет в котором был Костя,она увидела, что не известно откуда появилось около десятка манекенов[p]
-она поняла :они шевелятся только когда на них не смотрят[p]
-она с очень быстро пошла к Косте и не закрывала глаза[p]
-подойдя к нему она прицепила на него эту брошь[p]
-его конечности приняли нормальный вид[p]
-а глаза наполнились радостью[p]
-
--Я все вспомнил !Спасибо большое тебе Маша.Ты помогла мне снова начать жить.Это сердечко многое для меня значит[p]
-
-Смотря на него, она улыбнулась [p]
-Комната стала наполнятся светом,а Костя начал в нем растворяться. [p]
-Маша пыталась не закрывать глаза,ведь она знала ,что если их закроет,что-то произойдет[p]
-Но свет был намного сильнее и закрыв глаза,она приготовилась к следующему испытанию[p]
+В голову пришла мысль: если он носил эту брошку с пальто, значит нужно искать его.[p]
+Мария шла по второму этажу и увидела кабинет. У него была обычная дверь, но он был открыт.[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="chapter7/door.jpg"  ]
+[tb_start_text mode=1 ]
+#
+Открыв его, она увидела кучу манекенов. На каждом из них была одежда.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/many_manequins.jpg"  ]
+[tb_start_text mode=1 ]
+Один из манекенов был одет в пальто, принадлежавшее Косте.[p]
+Маша отцепила брошку и устремилась обратно к Косте.[p]
+
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/corridor.jpg"  ]
+[tb_start_text mode=1 ]
+#
+Пока она шла, ей попалось кое-что интересное.[p]
+#
+Маша[p]
+Странно, раньше эта дверь была закрыта...[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter7/darkdoor.jpg"  ]
+[tb_autosave  ]
+[glink  color="black"  storage="chapter7.ks"  size="30"  text="Подойти"  x="240"  y="500"  width=""  height=""  _clickable_img=""  target="*lookindoor"  ]
+[glink  color="black"  storage="chapter7.ks"  size="30"  text="Пройти&nbsp;мимо"  x="205"  y="600"  width=""  height=""  _clickable_img=""  target="*go_away"  ]
+[s  ]
+*lookindoor
+
+[tb_start_text mode=1 ]
+#
+Маша подошла к двери и из-за неё послышалась речь. Это был...[p]
+...симлиш?[p]
+Сквозь стекло какзалось, будто там стояли несколько человек.[p]
+[_tb_end_text]
+
+[tb_eval  exp="f.manequin_spotted=1"  name="manequin_spotted"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_autosave  ]
+[glink  color="black"  storage="chapter7.ks"  size="30"  target="*zaiti"  text="Заглянуть&nbsp;в&nbsp;дверь"  x="180"  y="700"  width=""  height=""  _clickable_img=""  ]
+[s  ]
+*go_away
+
+[tb_start_text mode=1 ]
+Маша решила как можно быстрее вернуться к Косте и отдать ему заветную брошку.[p]
+Как только она зашла в кабинет где был Костя, она увидела, что там уже стояли с десяток манекенов.[p]
+[_tb_end_text]
+
+[jump  storage="chapter7.ks"  target="*bad_end"  cond="f.manequin_spotted==1"  ]
+[jump  storage="chapter7.ks"  target="*good_end"  cond="f.manequin_spotted==0"  ]
+*bad_end
+
+[stopbgm  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="chapter7/corpse.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="common/badend.ogg"  ]
+[tb_start_text mode=1 ]
+#Маша
+Костя, нет! Отойдите от него!!![p]
+#
+Маша пробиралась свозь толпу манекенов и увидела, как некогда лежавший на кровати мальчик по имени Костя полностью обратился в существо, подобное тем, что окружили его и Машу.[p]
+Вдруг, комнату озарило ярким светом такой силы, что Машу ослепило и ей пришлось закрыть глаза.[p]
+[_tb_end_text]
+
+[tb_eval  exp="f.kost_isAlive=0"  name="kost_isAlive"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="bg_white.jpg"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="clear_screen.ks"  target=""  ]
+*good_end
+
+[tb_start_text mode=1 ]
+#
+Вдруг, к Маше пришло озарение. Они двигаются только когда ты на них не смотришь![p]
+Маша, не смыкая глаз, тут же двинулась к Косте и только её руки достигли его, как она отдала ему брошь.[p]
+Пластиковые конечности Кости вмиг стали человеческими, а глаза снова наполнились радостью.[p]
+Костя сделал резкий вдох, будто бы очнулся от сна длиною в жизнь...[p]
+[_tb_end_text]
+
+[chara_show  name="kost"  time="1000"  wait="true"  storage="chara/7/kost.1.png"  width="296"  height="927"  left="417"  top="515"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#Костя
+Я все вспомнил! Спасибо тебе, Маша, огромное![p]
+Это сердечко многое для меня значит...[p]
+[_tb_end_text]
+
+[tb_eval  exp="f.kost_isAlive=1"  name="kost_isAlive"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[chara_mod  name="kost"  time="600"  cross="true"  storage="chara/7/kost.3.png"  ]
+[tb_start_text mode=1 ]
+#Костя
+Теперь я могу вернуться к нормальной жизни!!![p]
+#
+Маша улыбнулась...[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="bg_white.jpg"  ]
+[tb_start_text mode=1 ]
+Комната стала наполняться светом, и Костя начал в нем растворяться. [p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_start_text mode=1 ]
+Маша пыталась не закрывать глаза, ведь она знала, что если их закроет, что-то произойдет...[p]
+Но свет был намного сильнее и закрыв глаза, она приготовилась к следующему испытанию.[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[jump  storage="clear_screen.ks"  target=""  ]
+[s  ]
+*zaiti
+
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter7/threat.ogg"  ]
+[tb_start_text mode=1 ]
+Маша попробовала заглянуть...[p]
+...и увидела манекен, стоящий у двери вплотную и смотревший на Машу своими пустыми глазами.[p]
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/chapter7/manequin.png"  width="726"  height="2441"  x="-7"  y="76"  _clickable_img=""  name="img_184"  ]
+[tb_start_text mode=1 ]
+#Маша
+Господи, ебтвоюмать...[p]
+[_tb_end_text]
+
+[glink  color="rosy"  storage="chapter7.ks"  size="30"  text="Закрыть&nbsp;дверь"  target="*go_away"  x="190"  y="700"  width=""  height=""  _clickable_img=""  ]
+[tb_image_hide  time="1000"  ]
 [s  ]

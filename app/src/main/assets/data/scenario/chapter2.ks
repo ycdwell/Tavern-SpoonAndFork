@@ -14,7 +14,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter1/wandering.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter1/ambient.ogg"  ]
 [bg  storage="chapter2/0.jpg"  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -34,14 +34,15 @@
 Так, вот ЦНТИ, а вот Бегемаг, где я постоянно брала эту сраную лапшу быстрого приготовления. Думаю, нужно проверить, есть ли там люди…[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Пойти&nbsp;в&nbsp;ЦНТИ"  target="*cnti"  x="140"  y="320"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Пойти&nbsp;в&nbsp;ЦНТИ"  target="*cnti"  x="140"  y="300"  width="270"  height="30"  _clickable_img=""  ]
 [glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Пойти&nbsp;в&nbsp;Бегемаг"  target="*begemag"  x="140"  y="400"  width="270"  height="30"  _clickable_img=""  ]
 [s  ]
 *cnti
 
-[tb_start_text mode=2 ]
-Маша проходит пешеходный переход.[l][r]
-Она идет и продолжает оглядываться по сторонам, и понимает, что никаких машин на дороге и в помине нет.[l][r]
+[tb_start_text mode=1 ]
+#
+Маша проходит пешеходный переход.[p]
+Она идет и продолжает оглядываться по сторонам, и понимает, что никаких машин на дороге и в помине нет.[p]
 
 [_tb_end_text]
 
@@ -51,6 +52,7 @@
 
 [bg  time="1000"  method="crossfade"  storage="chapter2/cnti.jpg"  ]
 [tb_start_text mode=1 ]
+#
 Поднявшись по ступеням, она потянула на себя дверь. На первом этаже здания было темно и пусто.[p]
 Прилавки пусты, нет даже жареных пирожков в буфете.[p]
 [_tb_end_text]
@@ -76,16 +78,24 @@
 #Маша
 Господи, неужели я совсем одна…[p]
 Стоп, нет! Макс сказал, что где-то здесь есть ребята! Мои ребята….[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/0.jpg"  ]
+[tb_start_text mode=1 ]
 #
 Девушка начала оглядываться в поисках того самого дома. Дома, в котором живет её лучшая подружка.[p]
 #Маша
-Думаю, лучше начать именно с Алёны. Это ведь она  однажды помогла мне погулять с Максом, а с этого, между прочим, и началась история нашей компании.[p]
+Думаю, лучше начать именно с Алёны. Это ведь она однажды помогла мне погулять с Максом, а с этого, между прочим, и началась история нашей компании.[p]
 #
 Найдя глазами примерное направление движения, Маша кое-что обнаружила.[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="chapter2/2.jpg"  ]
+[tb_start_text mode=1 ]
 #Маша
 Стоп, что это такое…[p]
 #
-Несколько ярких красных лучей тянулись из той красной дыры на небе, и одна из них направлялась прямо к дому Алёны.[p]
+Несколько ярких красных лучей тянулись из той красной дыры на небе, и один из них направлялась прямо к дому Алёны.[p]
 #Маша
 Кажется именно туда мне и нужно![p]
 #
@@ -106,7 +116,7 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="chapter2/domofon.jpg"  ]
 [tb_show_message_window  ]
-[chara_show  name="alyona"  time="1000"  wait="true"  storage="chara/1/siluet.png"  width="304"  height="633"  left="412"  top="324"  reflect="false"  ]
+[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/siluet.png"  width="440"  height="900"  left="280"  top="468"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #???
 Да?[p]
@@ -118,7 +128,7 @@
 Домофон отключается.[p]
 [_tb_end_text]
 
-[chara_hide  name="alyona"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="secondstaff"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #Маша
 Что?.... Что значит она меня не знает?! Это же точно её голос! Неужели она не помнит меня….[p]
@@ -129,17 +139,17 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/siluet.png"  width="304"  height="633"  left="318"  top="390"  reflect="true"  ]
+*domofon
+
+[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/siluet.png"  width="437"  height="910"  left="294"  top="489"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #???
 Да?[p]
 [_tb_end_text]
 
-*domofon
-
-[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Это&nbsp;Виталя"  target="*domofon-vitalya"  x="180"  y="320"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Это&nbsp;Виталя"  target="*domofon-vitalya"  x="180"  y="300"  width="270"  height="30"  _clickable_img=""  ]
 [glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Это&nbsp;соседка&nbsp;снизу"  x="180"  y="400"  width="270"  height="30"  _clickable_img=""  target="*domofon-sosedka"  ]
-[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Пизда"  x="180"  y="480"  width="270"  height="30"  _clickable_img=""  target="*domofon-pizda"  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Пизда"  x="180"  y="500"  width="270"  height="30"  _clickable_img=""  target="*domofon-pizda"  ]
 [s  ]
 *domofon-vitalya
 
@@ -162,7 +172,7 @@
 [jump  storage="chapter2.ks"  target="*domofon"  ]
 *domofon-sosedka
 
-[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/siluet.png"  width="304"  height="633"  ]
+[chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/siluet.png"  width="433"  height="901"  left="297"  top="414"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #Маша
 Это соседка снизу, впусти, я ключи забыла![p]
@@ -242,9 +252,9 @@
 Мужу???!!![p]
 [_tb_end_text]
 
-[glink  color="pink"  storage="chapter2.ks"  size="30"  text="Охуеть"  target="*ch3"  x="180"  y="320"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="pink"  storage="chapter2.ks"  size="30"  text="Охуеть"  target="*ch3"  x="180"  y="300"  width="270"  height="30"  _clickable_img=""  ]
 [glink  color="pink"  storage="chapter2.ks"  size="30"  text="Пиздец"  target="*ch3"  x="180"  y="400"  width="270"  height="30"  _clickable_img=""  ]
-[glink  color="pink"  storage="chapter2.ks"  size="30"  text="Чего&nbsp;блять"  target="*ch3"  x="180"  y="480"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="pink"  storage="chapter2.ks"  size="30"  text="Чего&nbsp;блять"  target="*ch3"  x="180"  y="500"  width="270"  height="30"  _clickable_img=""  ]
 [s  ]
 *ch3
 
@@ -397,8 +407,8 @@
 
 [tb_autosave  title="AutoSave"  ]
 [glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Схватить&nbsp;хиджаб"  target="*hidjab"  x="150"  y="400"  width="270"  height="30"  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Схватить&nbsp;чайник"  target="*teapot"  x="150"  y="480"  width="270"  height="30"  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Схватить&nbsp;сковороду"  target="*skovoroda"  x="150"  y="560"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Схватить&nbsp;чайник"  target="*teapot"  x="150"  y="500"  width="270"  height="30"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter2.ks"  size="30"  text="Схватить&nbsp;сковороду"  target="*skovoroda"  x="150"  y="600"  width="270"  height="30"  _clickable_img=""  ]
 [s  ]
 *hidjab
 
@@ -487,9 +497,10 @@
 Её забрал луч...[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [chara_hide  name="alyona"  time="1000"  wait="true"  pos_mode="true"  ]
 [stopbgm  time="1000"  ]
-[jump  storage="chapter3.ks"  target=""  ]
+[jump  storage="clear_screen.ks"  target=""  ]
 *bad_end
 
 [tb_start_text mode=1 ]
@@ -513,8 +524,9 @@
 Может быть у меня получится спасти остальных...[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="chapter3.ks"  target=""  ]
+[jump  storage="clear_screen.ks"  target=""  ]
 [s  ]
 *alyona1
 

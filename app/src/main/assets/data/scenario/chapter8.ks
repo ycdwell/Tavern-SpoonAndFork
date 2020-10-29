@@ -91,8 +91,8 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="rosy"  storage="chapter8.ks"  size="30"  text="Ни&nbsp;шагу&nbsp;назад"  width="270"  height="30"  x="165"  y="260"  _clickable_img=""  target="*2"  ]
-[glink  color="rosy"  storage="chapter8.ks"  size="30"  text="А&nbsp;может&nbsp;всё-таки&nbsp;не&nbsp;стоит...."  width=""  height="30"  x="100"  y="340"  _clickable_img=""  target="*1"  ]
+[glink  color="rosy"  storage="chapter8.ks"  size="30"  text="Ни&nbsp;шагу&nbsp;назад"  width="270"  height="30"  x="165"  y="300"  _clickable_img=""  target="*2"  ]
+[glink  color="rosy"  storage="chapter8.ks"  size="30"  text="А&nbsp;может&nbsp;всё-таки&nbsp;не&nbsp;стоит...."  width=""  height="30"  x="100"  y="400"  _clickable_img=""  target="*1"  ]
 [s  ]
 *1
 

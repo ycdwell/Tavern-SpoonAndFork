@@ -6,7 +6,7 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter1/wandering.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter1/ambient.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -23,7 +23,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="chapter3/villa.jpg"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter3/wandering.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter3/ambient.ogg"  ]
 [tb_start_text mode=1 ]
 #
 Строение было похоже на римскую виллу, главные ворота которой были под охраной четырех преторианцев.[p]
@@ -59,9 +59,9 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ахуеть"  x="285"  y="465"  width=""  height=""  _clickable_img=""  target="*pisdets"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пиздец))!0)!!)))"  x="249"  y="378"  width=""  height=""  _clickable_img=""  target="*pisdets"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Проведи&nbsp;меня&nbsp;к&nbsp;Максу,&nbsp;fucking&nbsp;slave!"  x="145"  y="290"  width=""  height=""  _clickable_img=""  target="*fuckingslave"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ахуеть"  x="285"  y="600"  width=""  height=""  _clickable_img=""  target="*pisdets"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пиздец))!0)!!)))"  x="249"  y="500"  width=""  height=""  _clickable_img=""  target="*pisdets"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Проведи&nbsp;меня&nbsp;к&nbsp;Максу,&nbsp;fucking&nbsp;slave!"  x="145"  y="400"  width=""  height=""  _clickable_img=""  target="*fuckingslave"  ]
 [s  ]
 *pisdets
 
@@ -109,9 +109,9 @@
 #Маша
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ахуеть"  target="*max"  x="270"  y="230"  width="67"  height="21"  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пиздец))!0!!)))"  target="*max"  x="237"  y="308"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="В&nbsp;рот&nbsp;ебать"  target="*max"  x="248"  y="385"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ахуеть"  target="*max"  x="270"  y="300"  width="67"  height="21"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пиздец))!0!!)))"  target="*max"  x="237"  y="400"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="В&nbsp;рот&nbsp;ебать"  target="*max"  x="248"  y="500"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *max
 
@@ -202,8 +202,8 @@
 Ты...[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пропускаешь&nbsp;ход,&nbsp;наливаешь&nbsp;и&nbsp;пьешь."  x="136"  y="295"  width=""  height=""  _clickable_img=""  target="*1.1"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Странно,&nbsp;иллюзии&nbsp;должны&nbsp;быть&nbsp;безвредны&nbsp;(-2&nbsp;к&nbsp;стойкости)."  x="37"  y="380"  width=""  height=""  _clickable_img=""  target="*1.2"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пропускаешь&nbsp;ход,&nbsp;наливаешь&nbsp;и&nbsp;пьешь."  x="136"  y="400"  width=""  height=""  _clickable_img=""  target="*1.1"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Странно,&nbsp;иллюзии&nbsp;должны&nbsp;быть&nbsp;безвредны&nbsp;(-2&nbsp;к&nbsp;стойкости)."  x="37"  y="500"  width=""  height=""  _clickable_img=""  target="*1.2"  ]
 [s  ]
 *1.1
 
@@ -232,8 +232,8 @@
 #Маша
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ну&nbsp;уж&nbsp;нет!"  x="264"  y="292"  width=""  height=""  _clickable_img=""  target="*2"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Девка&nbsp;просит&nbsp;не&nbsp;играться&nbsp;с&nbsp;выпивкой!"  x="135"  y="379"  width=""  height=""  _clickable_img=""  target="*2"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ну&nbsp;уж&nbsp;нет!"  x="264"  y="400"  width=""  height=""  _clickable_img=""  target="*2"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Девка&nbsp;просит&nbsp;не&nbsp;играться&nbsp;с&nbsp;выпивкой!"  x="135"  y="500"  width=""  height=""  _clickable_img=""  target="*2"  ]
 [s  ]
 *2
 
@@ -350,8 +350,8 @@
 #
 Свет затянул его куда-то.[p]
 Маша не знала куда.[p]
-
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [jump  storage="clear_screen.ks"  target=""  ]
 [s  ]

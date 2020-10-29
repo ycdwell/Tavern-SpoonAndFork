@@ -2,6 +2,7 @@
 [preload  storage="./data/bgimage/chapter2/0.jpg"  ]
 [preload  storage="./data/bgimage/chapter2/cnti.jpg"  ]
 [preload  storage="./data/bgimage/chapter2/begemag.jpg"  ]
+[preload  storage="./data/bgimage/chapter2/2.jpg"  ]
 [preload  storage="./data/bgimage/chapter2/door.jpg"  ]
 [preload  storage="./data/bgimage/chapter2/domofon.jpg"  ]
 [preload  storage="./data/bgimage/chapter2/flat.jpg"  ]
