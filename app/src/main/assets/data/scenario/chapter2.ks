@@ -6,7 +6,7 @@
 [tb_start_tyrano_code]
 [autosave]
 [_tb_end_tyrano_code]
-
+[tb_eval  exp="f.currentChapter=2"  name="currentChapter"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
