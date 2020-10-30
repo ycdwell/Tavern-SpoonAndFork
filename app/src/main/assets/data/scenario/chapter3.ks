@@ -59,9 +59,9 @@
 [autosave]
 [_tb_end_tyrano_code]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ахуеть"  x="285"  y="600"  width=""  height=""  _clickable_img=""  target="*pisdets"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пиздец))!0)!!)))"  x="249"  y="500"  width=""  height=""  _clickable_img=""  target="*pisdets"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Проведи&nbsp;меня&nbsp;к&nbsp;Максу,&nbsp;fucking&nbsp;slave!"  x="145"  y="400"  width=""  height=""  _clickable_img=""  target="*fuckingslave"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="30"  text="Ахуеть"  x="285"  y="600"  width=""  height=""  _clickable_img=""  target="*pisdets"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="30"  text="Пиздец))!0)!!)))"  x="249"  y="500"  width=""  height=""  _clickable_img=""  target="*pisdets"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="30"  text="Проведи&nbsp;меня&nbsp;к&nbsp;Максу,&nbsp;fucking&nbsp;slave!"  x="145"  y="400"  width=""  height=""  _clickable_img=""  target="*fuckingslave"  ]
 [s  ]
 *pisdets
 
@@ -109,9 +109,9 @@
 #Маша
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ахуеть"  target="*max"  x="270"  y="300"  width="67"  height="21"  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пиздец))!0!!)))"  target="*max"  x="237"  y="400"  width=""  height=""  _clickable_img=""  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="В&nbsp;рот&nbsp;ебать"  target="*max"  x="248"  y="500"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="30"  text="Ахуеть"  target="*max"  x="270"  y="300"  width="67"  height="21"  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="30"  text="Пиздец))!0!!)))"  target="*max"  x="237"  y="400"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="30"  text="В&nbsp;рот&nbsp;ебать"  target="*max"  x="248"  y="500"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *max
 
@@ -202,8 +202,8 @@
 Ты...[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Пропускаешь&nbsp;ход,&nbsp;наливаешь&nbsp;и&nbsp;пьешь."  x="136"  y="400"  width=""  height=""  _clickable_img=""  target="*1.1"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Странно,&nbsp;иллюзии&nbsp;должны&nbsp;быть&nbsp;безвредны&nbsp;(-2&nbsp;к&nbsp;стойкости)."  x="37"  y="500"  width=""  height=""  _clickable_img=""  target="*1.2"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="25"  text="Пропускаешь&nbsp;ход,&nbsp;наливаешь&nbsp;и&nbsp;пьешь."  x="72"  y="398"  width=""  height=""  _clickable_img=""  target="*1.1"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="25"  text="Странно,&nbsp;иллюзии&nbsp;должны&nbsp;быть&nbsp;безвредны&nbsp;(-2&nbsp;к&nbsp;стойкости)."  x="37"  y="500"  width=""  height=""  _clickable_img=""  target="*1.2"  ]
 [s  ]
 *1.1
 
@@ -232,8 +232,8 @@
 #Маша
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Ну&nbsp;уж&nbsp;нет!"  x="264"  y="400"  width=""  height=""  _clickable_img=""  target="*2"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="20"  text="Девка&nbsp;просит&nbsp;не&nbsp;играться&nbsp;с&nbsp;выпивкой!"  x="135"  y="500"  width=""  height=""  _clickable_img=""  target="*2"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="30"  text="Ну&nbsp;уж&nbsp;нет!"  x="264"  y="400"  width=""  height=""  _clickable_img=""  target="*2"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="30"  text="Девка&nbsp;просит&nbsp;не&nbsp;играться&nbsp;с&nbsp;выпивкой!"  x="135"  y="500"  width=""  height=""  _clickable_img=""  target="*2"  ]
 [s  ]
 *2
 

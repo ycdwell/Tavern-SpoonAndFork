@@ -65,8 +65,9 @@
 [_tb_end_text]
 
 [tb_autosave  ]
-[glink  color="black"  storage="chapter4.ks"  size="20"  text="Сыграй&nbsp;Моргенштерна"  target="*morgenstern"  ]
-[glink  color="black"  storage="chapter4.ks"  size="20"  text="Все&nbsp;у&nbsp;вас&nbsp;не&nbsp;как&nbsp;у&nbsp;людей..."  target="*noizemc"  ]
+[glink  color="rosy"  storage="chapter4.ks"  size="30"  text="Сыграй&nbsp;Моргенштерна"  target="*morgenstern"  x="380"  y="400"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="chapter4.ks"  size="30"  text="Все&nbsp;у&nbsp;вас&nbsp;не&nbsp;как&nbsp;у&nbsp;людей..."  target="*noizemc"  x="360"  y="500"  width=""  height=""  _clickable_img=""  ]
+[s  ]
 *morgenstern
 
 [tb_start_text mode=1 ]
@@ -98,6 +99,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[jump  storage="clear_screen.ks"  target=""  ]
 [s  ]
 *noizemc
 
@@ -135,8 +137,8 @@
 Вспомнив, что только она способна в значительной мере влиять на состояние мира, она решает материализовать в своей руке некий предмет.[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="chapter4.ks"  size="30"  text="Вейп"  ]
-[glink  color="black"  storage="chapter4.ks"  size="20"  text="Колода&nbsp;карт"  ]
+[glink  color="black"  storage="chapter4.ks"  size="30"  text="Вейп" x="180"  y="400"   ]
+[glink  color="black"  storage="chapter4.ks"  size="20"  text="Колода&nbsp;карт" x="180"  y="500"   ]
 *vape
 
 [tb_start_text mode=1 ]
@@ -147,7 +149,7 @@
 Удалось с первого раза, удивительно….[p]
 #
 Девушка протягивает парню электронную сигарету.[p]
-#Маша 
+#Маша
 Держи! Быть может быть это напомнит тебе обо мне.[p]
 #
 Саша без тени сомнения берет трубку в рот и вдыхает полные легкие. [p]
@@ -163,6 +165,9 @@
 Игнорируя его, она отправилась дальше.[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[jump  storage="clear_screen.ks"  target=""  ]
+[s  ]
 *cards
 
 [tb_start_text mode=1 ]
@@ -218,7 +223,7 @@
 [tb_start_text mode=1 ]
 #Саша
 Пуля![p]
-#Маша 
+#Маша
 Саша! Ты вернулся![p]
 Переполненная чувствами Маша бросилась в объятия парню. Она крепко обняли друг друга. [p]
 В тот же момент подземный переход заполнился жутким воем. Глаза безобидных, казалось бы, силуэтов людей наполнились кровью и непреодолимой жаждой.[p]
@@ -257,7 +262,7 @@
 #
 Ярчайшая вспышка осветила все вокруг, очистив переход от любой нечести на долгие годы.[p]
 Ослепленная Маша с закрытыми воскликнула.[p]
-# Маша 
+# Маша
 Мы победили! Саша, мы победили![p]
 #
 Но никто ей не ответил.[p]
