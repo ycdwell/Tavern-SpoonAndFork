@@ -22,7 +22,7 @@ import java.io.IOException;
  */
 public class MyJavaScriptInterface {
 
-    private Context context;
+    private final Context context;
     private String base_path;
     public MyJavaScriptInterface(Context context){
         this.context =context;

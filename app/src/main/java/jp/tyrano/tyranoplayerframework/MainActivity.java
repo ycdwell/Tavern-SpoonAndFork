@@ -45,6 +45,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -80,7 +81,7 @@ public class MainActivity extends Activity  {
         File dataDir = this.getFilesDir();
 
         final String file_url = "file:///android_asset/index.html";
-        final String base_url = "file:///android_asset/";;
+        final String base_url = "file:///android_asset/";
 
         this.base_url = base_url;
 
@@ -102,7 +103,7 @@ public class MainActivity extends Activity  {
         try {
 
                 BufferedReader reader ;
-                reader = new BufferedReader(new InputStreamReader(getAssets().open("index.html"), "UTF-8"));
+                reader = new BufferedReader(new InputStreamReader(getAssets().open("index.html"), StandardCharsets.UTF_8));
                 startGame(reader);
 
         }catch (Exception e) {
