@@ -352,6 +352,7 @@
 Маша не знала куда.[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  ]
 [tb_hide_message_window  ]
 [jump  storage="clear_screen.ks"  target=""  ]
 [s  ]
