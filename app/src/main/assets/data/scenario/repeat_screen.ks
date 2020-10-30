@@ -124,7 +124,7 @@
 [cm  ]
 [tb_image_hide  time="1"  ]
 [tb_ptext_hide  time="1"  ]
-[jump  storage="chapter6neg.ks"  target=""  ]
+[jump  storage="chapter6.ks"  target=""  cond=""  ]
 [s  ]
 *episode7_sel
 

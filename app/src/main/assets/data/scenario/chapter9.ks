@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_chapter9.ks]
 
 [cm  ]
+[showmenubutton]
+
 [tb_eval  exp="f.currentChapter=9"  name="currentChapter"  cmd="="  op="t"  val="9"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_show_message_window  ]

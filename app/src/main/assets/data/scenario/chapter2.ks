@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_chapter2.ks]
 
 [cm  ]
+[showmenubutton]
+
 [tb_eval  exp="f.currentChapter=2"  name="currentChapter"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 *start
 
@@ -62,6 +64,7 @@
 *begemag
 
 [tb_start_text mode=1 ]
+#
 Подходя ближе к дверям, Маша увидела пустые залы магазина.[p]
 [_tb_end_text]
 

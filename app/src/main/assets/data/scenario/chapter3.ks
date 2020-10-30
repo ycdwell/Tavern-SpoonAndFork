@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_chapter3.ks]
 
 [cm  ]
+[showmenubutton]
+
 [tb_eval  exp="f.currentChapter=3"  name="currentChapter"  cmd="="  op="t"  val="3"  val_2="undefined"  ]
 [tb_start_tyrano_code]
 [autosave]
@@ -10,6 +12,7 @@
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
+#
 Глава 3. "Самый большой флекс"[p]
 [_tb_end_text]
 
@@ -46,7 +49,7 @@
 В паре метров от главного входа Марию встречает Отец Макса.[p]
 [_tb_end_text]
 
-[chara_show  name="secondstaff"  time="1000"  wait="true"  left="455"  top="666"  width="175"  height="324"  reflect="false"  storage="chara/10/slave.png"  ]
+[chara_show  name="secondstaff"  time="1000"  wait="true"  left="389"  top="578"  width="295"  height="538"  reflect="false"  storage="chara/10/slave.png"  ]
 [tb_start_text mode=1 ]
 #
 На нем надеты кандалы, лицо его было в синяках, а вместо привычной одежды он носил грязную, застиранную коту.[p]
@@ -202,8 +205,8 @@
 Ты...[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="chapter3.ks"  size="25"  text="Пропускаешь&nbsp;ход,&nbsp;наливаешь&nbsp;и&nbsp;пьешь."  x="72"  y="398"  width=""  height=""  _clickable_img=""  target="*1.1"  ]
-[glink  color="rosy"  storage="chapter3.ks"  size="25"  text="Странно,&nbsp;иллюзии&nbsp;должны&nbsp;быть&nbsp;безвредны&nbsp;(-2&nbsp;к&nbsp;стойкости)."  x="37"  y="500"  width=""  height=""  _clickable_img=""  target="*1.2"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="25"  text="Пропускаешь&nbsp;ход,&nbsp;наливаешь&nbsp;и&nbsp;пьешь"  x="72"  y="398"  width=""  height=""  _clickable_img=""  target="*1.1"  ]
+[glink  color="rosy"  storage="chapter3.ks"  size="25"  text="Странно,&nbsp;иллюзии&nbsp;должны&nbsp;быть&nbsp;безвредны"  x="37"  y="500"  width=""  height=""  _clickable_img=""  target="*1.2"  ]
 [s  ]
 *1.1
 

@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_chapter7.ks]
 
 [cm  ]
+[showmenubutton]
+
 [tb_eval  exp="f.currentChapter=7"  name="currentChapter"  cmd="="  op="t"  val="7"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_start_tyrano_code]

@@ -4,6 +4,11 @@
 
 [tb_clear_images]
 
+[tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[tb_ptext_hide  time="1000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
@@ -12,6 +17,7 @@
 [tb_start_tyrano_code]
 [if exp="f.num_of_complete_episodes<f.currentChapter"]
 [eval exp="f.num_of_complete_episodes=f.currentChapter"]
+[eval exp="f.num_of_complete_episodes+=1"]
 [endif]
 [_tb_end_tyrano_code]
 
@@ -48,10 +54,8 @@
 [jump  storage="chapter3.ks"  target=""  cond="f.currentChapter==2"  ]
 [jump  storage="chapter4.ks"  target=""  cond="f.currentChapter==3"  ]
 [jump  storage="chapter5.ks"  target=""  cond="f.currentChapter==4"  ]
-[jump  storage="chapter6neg.ks"  target=""  cond="f.maxe_isAlive==0"  ]
-[jump  storage="chapter6pos.ks"  target=""  cond="f.maxe_isAlive==1"  ]
-[jump  storage="chapter7.ks"  target=""  cond="f.currentChapter=='6neg'"  ]
-[jump  storage="chapter7.ks"  target=""  cond="f.currentChapter=='6pos'"  ]
+[jump  storage="chapter6.ks"  target=""  cond="f.currentChapter==5"  ]
+[jump  storage="chapter7.ks"  target=""  cond="f.currentChapter==6"  ]
 [jump  storage="chapter8.ks"  target=""  cond="f.currentChapter==7"  ]
 [jump  storage="chapter9.ks"  target=""  cond="f.currentChapter==8"  ]
 [jump  storage="chapter10.ks"  target=""  cond="f.currentChapter==9"  ]

@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_chapter4.ks]
 
 [cm  ]
+[showmenubutton]
+
 [tb_eval  exp="f.currentChapter=4"  name="currentChapter"  cmd="="  op="t"  val="4"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_show_message_window  ]
@@ -139,6 +141,7 @@
 
 [glink  color="rosy"  storage="chapter4.ks"  size="30"  text="Вейп"  target="*vape"  x="270"  y="400"  width=""  height=""  _clickable_img=""  ]
 [glink  color="rosy"  storage="chapter4.ks"  size="30"  text="Колода&nbsp;карт"  target="*cards"  x="220"  y="500"  width=""  height=""  _clickable_img=""  ]
+[s  ]
 *vape
 
 [tb_start_text mode=1 ]

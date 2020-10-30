@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_chapter5.ks]
 
 [cm  ]
+[showmenubutton]
+
 [tb_eval  exp="f.currentChapter=5"  name="currentChapter"  cmd="="  op="t"  val="5"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_show_message_window  ]
@@ -298,7 +300,7 @@
 [_tb_end_text]
 
 [stopbgm  time="1000"  ]
-[tb_eval  exp="f.maxe_isAlive=1"  name="maxe_isAlive"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.maxe_isAlive=0"  name="maxe_isAlive"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [jump  storage="clear_screen.ks"  target=""  ]
 [s  ]
 *trust
