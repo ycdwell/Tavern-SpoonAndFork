@@ -65,8 +65,8 @@
 [_tb_end_text]
 
 [tb_autosave  ]
-[glink  color="rosy"  storage="chapter4.ks"  size="30"  text="Сыграй&nbsp;Моргенштерна"  target="*morgenstern"  x="380"  y="400"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="chapter4.ks"  size="30"  text="Все&nbsp;у&nbsp;вас&nbsp;не&nbsp;как&nbsp;у&nbsp;людей..."  target="*noizemc"  x="360"  y="500"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter4.ks"  size="30"  text="Сыграй&nbsp;Моргенштерна"  target="*morgenstern"  x="150"  y="400"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter4.ks"  size="30"  text="Все&nbsp;у&nbsp;вас&nbsp;не&nbsp;как&nbsp;у&nbsp;людей..."  target="*noizemc"  x="125"  y="500"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *morgenstern
 
@@ -137,8 +137,8 @@
 Вспомнив, что только она способна в значительной мере влиять на состояние мира, она решает материализовать в своей руке некий предмет.[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="chapter4.ks"  size="30"  text="Вейп" x="180"  y="400"   ]
-[glink  color="black"  storage="chapter4.ks"  size="20"  text="Колода&nbsp;карт" x="180"  y="500"   ]
+[glink  color="rosy"  storage="chapter4.ks"  size="30"  text="Вейп"  target="*vape"  x="270"  y="400"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="chapter4.ks"  size="30"  text="Колода&nbsp;карт"  target="*cards"  x="220"  y="500"  width=""  height=""  _clickable_img=""  ]
 *vape
 
 [tb_start_text mode=1 ]

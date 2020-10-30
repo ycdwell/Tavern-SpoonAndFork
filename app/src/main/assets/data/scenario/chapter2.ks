@@ -1,12 +1,13 @@
 [_tb_system_call storage=system/_chapter2.ks]
 
 [cm  ]
+[tb_eval  exp="f.currentChapter=2"  name="currentChapter"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 *start
 
 [tb_start_tyrano_code]
 [autosave]
 [_tb_end_tyrano_code]
-[tb_eval  exp="f.currentChapter=2"  name="currentChapter"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -413,7 +414,6 @@
 *hidjab
 
 [tb_start_text mode=1 ]
-#
 В спешке Маша хватает темную тряпку, что лежит на стуле.[p]
 Как только Лёша сворачивает на кухню, она кидает тряпку ему в лицо.[p]
 #Лёша
@@ -431,7 +431,6 @@
 *teapot
 
 [tb_start_text mode=1 ]
-#
 Не успев опомниться, Маша хватает чайник с только что вскипевшей водой.[p]
 Чай они с Алёной всё равно уже не попьют.[p]
 Как только Лёша сворачивает на кухню, она выплескивает воду.[p]
@@ -448,7 +447,6 @@
 *skovoroda
 
 [tb_start_text mode=1 ]
-#
 Услышав приближающиеся шаги, Маша быстро реагирует и хватает сковородку.[p]
 Девушки на цыпочках пошли на встречу «мужу» и как только он завернул на кухню...[p]
 Маша ударила его сковородкой по голове.[p]
