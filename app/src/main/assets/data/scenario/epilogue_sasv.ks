@@ -98,7 +98,7 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="epilogue_sasv.ks"  target="*changed_decision"  cond="f.finalchoice>1"  ]
 [glink  color="black"  storage="chapter10.ks"  size="30"  text="Изменить&nbsp;решение"  x="150"  y="400"  width=""  height=""  _clickable_img=""  target="*3"  ]
-[glink  color="black"  storage="titles.ks"  size="30"  text="Закончить&nbsp;игру"  x="150"  y="500"  width="269"  height="30"  _clickable_img=""  ]
+[glink  color="black"  storage="title_screen.ks"  size="30"  text="Закончить&nbsp;игру"  x="150"  y="500"  width="269"  height="30"  _clickable_img=""  ]
 [s  ]
 *maxs_isAlive
 
@@ -239,7 +239,7 @@
 [return  ]
 *changed_decision
 
-[glink  color="black"  storage="titles.ks"  size="30"  text="Закончить&nbsp;игру"  x="150"  y="500"  width="269"  height="30"  _clickable_img=""  ]
+[glink  color="black"  storage="title_screen.ks"  size="30"  text="Закончить&nbsp;игру"  x="150"  y="500"  width="269"  height="30"  _clickable_img=""  ]
 [s  ]
 *calculation
 
