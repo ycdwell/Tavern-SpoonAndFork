@@ -262,13 +262,14 @@
 [glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Посмотреть&nbsp;в&nbsp;кармане&nbsp;куртки"  width=""  height=""  x="97"  y="500"  _clickable_img=""  target="*2.3"  ]
 [tb_start_tyrano_code]
 [if exp="f.lookaround>=7"]
-[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Поискать&nbsp;в&nbsp;другом&nbsp;месте"  x="125"  y="440" width="350" height="30"  _clickable_img=""  target="*2.4"  ]
+[glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Поискать в другом месте"  x="125"  y="600" width="350" height="30"  _clickable_img=""  target="*2.4"  ]
 [endif]
 [_tb_end_tyrano_code]
 
 [s  ]
 *2.1
 
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 Вспомнив, как примерно выглядит этот предмет, Маша решила поискать его под подушкой.[p]
@@ -279,6 +280,7 @@
 [jump  storage="chapter9.ks"  target="*jump2"  ]
 *2.2
 
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 Маша решила поискать в ящике возле кровати. Хорошо порывшись, девушка нашла лишь старые наручные часы и мелочь.[p]
@@ -290,6 +292,7 @@
 [jump  storage="chapter9.ks"  target="*jump2"  ]
 *2.3
 
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #Маша
 Хм, может быть это куртка Витали.[p]
@@ -342,7 +345,7 @@
 [s  ]
 *3
 
-[bg  time="1000"  method="crossfade"  storage="chapter9/warehouse.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="chapter9/warehouse_door.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
@@ -358,13 +361,11 @@
 #Маша
 Охуеть…..[p]
 Ладно, попробуем по-другому.[p]
-
 [_tb_end_text]
 
 [tb_hide_message_window  ]
 *jump4
 
-[bg  time="1000"  method="crossfade"  storage="chapter9/warehouse_door.jpg"  ]
 [chara_mod  name="vit"  time="600"  cross="true"  storage="chara/5/vitA.6.png"  ]
 [glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Снести&nbsp;дверь&nbsp;с&nbsp;разбега"  x="137"  y="400"  width="341"  height=""  _clickable_img=""  target="*3.1"  ]
 [glink  color="rosy"  storage="chapter9.ks"  size="30"  text="Использовать&nbsp;шпильку"  x="135"  y="500"  width="340"  height=""  _clickable_img=""  target="*3.2"  ]

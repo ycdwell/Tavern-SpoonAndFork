@@ -4,7 +4,7 @@
 [showmenubutton]
 
 [tb_eval  exp="f.currentChapter=6"  name="currentChapter"  cmd="="  op="t"  val="6"  val_2="undefined"  ]
-[jump  storage="chapter6pos.ks"  target="*6neg"  cond="f.maxe_isAlive==0"  ]
+[jump  storage="chapter6.ks"  target="*6neg"  ]
 *6pos
 
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]

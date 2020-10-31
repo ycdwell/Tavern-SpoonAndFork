@@ -12,17 +12,14 @@
 
 [tb_start_tyrano_code]
 [if exp="sf.system.autosave ==true"]
-[glink  color="black"  storage=""  size="30"  text="Продолжить"  x="75"  y="300" width="" height="30"  _clickable_img=""  target="*autoload"  ]
+[glink  color="black"  storage=""  size="30"  text="Продолжить"  x="318"  y="426" width="" height="30"  _clickable_img=""  target="*autoload"  ]
 [endif]
 [_tb_end_tyrano_code]
 
-[glink  color="black"  text="Новая&nbsp;Игра"  x="75"  y="400"  size="30"  target="*start"  ]
-[glink  color="black"  text="Загрузить&nbsp;Игру"  x="75"  y="500"  size="30"  target="*load"  ]
+[glink  color="black"  text="Новая&nbsp;Игра"  x="50"  y="560"  size="30"  target="*start"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  text="Загрузить"  x="350"  y="677"  size="30"  target="*load"  width=""  height=""  _clickable_img=""  ]
 [tb_start_tyrano_code]
-[if exp="f.num_of_complete_episodes>0"]
-[glink  color="black"  storage="repeat_screen.ks"  size="30"  text="Выбор эпизода"  x="75"  y="600" width="" height="30"  _clickable_img=""  target=""  ]
-[endif]
-[_tb_end_tyrano_code]
+[glink  color="black"  storage="repeat_screen.ks"  size="30"  text="Выбор эпизода"  x="146"  y="837" width="" height="30"  _clickable_img=""  target=""  ]
 
 [s  ]
 *start

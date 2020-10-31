@@ -269,5 +269,5 @@
 [chara_show  name="secondstaff"  time="1000"  wait="true"  storage="chara/10/alex_3.png"  width="299"  height="922"  left="-17"  top="530"  reflect="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [glink  color="rosy"  storage="epilogue_alex.ks"  size="30"  text="Я&nbsp;люблю&nbsp;Александра"  x="151"  y="350"  width="302"  height=""  _clickable_img=""  target=""  ]
-[glink  color="rosy"  storage="epilogue_sasv.ks"  size="30"  text="Я&nbsp;люблю&nbsp;Сашку"  x="150"  y="500"  width="301"  height=""  _clickable_img=""  target="*3.2"  ]
+[glink  color="rosy"  storage="epilogue_sasv.ks"  size="30"  text="Я&nbsp;люблю&nbsp;Сашку"  x="150"  y="500"  width="301"  height=""  _clickable_img=""  target="*start"  ]
 [s  ]

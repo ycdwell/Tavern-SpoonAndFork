@@ -5,4 +5,8 @@
 [preload  storage="./data/fgimage/chara/3/maxeB.0.png"  ]
 [preload  storage="./data/fgimage/chara/3/maxeB.7.png"  ]
 [preload  storage="./data/fgimage/chara/3/maxeB.6.png"  ]
+[preload  storage="./data/fgimage/chara/3/azartka.png"  ]
+[preload  storage="./data/fgimage/chara/3/maxeB.2.png"  ]
+[preload  storage="./data/fgimage/chara/3/maxeB.4.png"  ]
+[preload  storage="./data/fgimage/chara/3/maxeB.5.png"  ]
 [return]

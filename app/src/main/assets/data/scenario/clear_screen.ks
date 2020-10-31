@@ -12,7 +12,7 @@
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[bg  storage="bg_base.png"  ]
+[bg  storage="bg_base.jpg"  ]
 [tb_ptext_show  x="180"  y="665"  size="50"  color="0x000000"  time="1000"  text="Конец&nbsp;эпизода"  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
 [tb_start_tyrano_code]
 [if exp="f.num_of_complete_episodes<f.currentChapter"]

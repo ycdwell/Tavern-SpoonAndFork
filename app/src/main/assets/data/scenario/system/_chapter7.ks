@@ -13,6 +13,7 @@
 [preload  storage="./data/bgimage/chapter7/komk.jpg"  ]
 [preload  storage="./data/bgimage/chapter7/entrance.jpg"  ]
 [preload  storage="./data/bgimage/chapter7/cabinet.jpg"  ]
+[preload  storage="./data/fgimage/chara/10/baba_lena_cool.png"  ]
 [preload  storage="./data/bgimage/chapter7/corridor.jpg"  ]
 [preload  storage="./data/bgimage/chapter7/cabinet3.jpg"  ]
 [preload  storage="./data/bgimage/chapter7/cabinet2.jpg"  ]

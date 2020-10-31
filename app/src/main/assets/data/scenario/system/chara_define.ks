@@ -4,7 +4,7 @@
 ;maxs
 [chara_new  name="maxs"  jname="maxs"  storage="chara/2/maxS.0.png"  ]
 ;maxe
-[chara_new  name="maxe"  jname="maxe"  storage="chara/3/maxeA.0.png"  ]
+[chara_new  name="maxe"  jname="maxe"  storage="chara/3/azartka.png"  ]
 ;ser
 [chara_new  name="ser"  jname="ser"  storage="chara/4/serA.0.png"  ]
 ;vit
@@ -14,7 +14,7 @@
 ;kost
 [chara_new  name="kost"  jname="kost"  storage="chara/7/kost.0.png"  ]
 ;sask
-[chara_new  name="sask"  jname="sask"  storage="chara/8/siluet.png"  ]
+[chara_new  name="sask"  jname="sask"  storage="chara/8/saskA.0.png"  ]
 ;sasv
 [chara_new  name="sasv"  jname="sasv"  storage="chara/9/sasv_0.png"  ]
 ;secondstaff
@@ -36,5 +36,5 @@ f['kost_isAlive']=0;
 f['finalchoice']=0; 
 f['num_of_saved']=0; 
 f['maxs_isAlive']=0; 
-f['num_of_complete_episodes']=0; 
+f['num_of_complete_episodes']=10; 
 [endscript] 
