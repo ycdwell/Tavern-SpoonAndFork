@@ -311,7 +311,7 @@
 [_tb_end_text]
 
 [stopbgm  time="1000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter4/суперакустика_с_инструментами_-_3.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chapter4/utro.ogg"  ]
 [chara_mod  name="sask"  time="600"  cross="true"  storage="chara/8/saskB.4.png"  ]
 [tb_start_text mode=1 ]
 # Саша
